@@ -1,0 +1,215 @@
+{
+    "type": "FeatureCollection",
+    "name": "REFERENTES ZONALES",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "1",
+                "nombre": "Yamileth Osorio",
+                "cv": "CO.E Padre Mario Zanconato",
+                "cargo": "Referente de zona",
+                "latitud": "13.655502917004299",
+                "longitud": "-89.17572129",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17572129,
+                    13.655502917004299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "2",
+                "nombre": "Hazel Dimas",
+                "cv": "C.E Cantón Guadalupe",
+                "cargo": "Referente de zona",
+                "latitud": "13.655523997770114",
+                "longitud": "-89.17573694",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17573694,
+                    13.655523997770114
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "3",
+                "nombre": "Ángel Callejas",
+                "cv": "C.E Eusebio Cordoncea",
+                "cargo": "Referente de zona",
+                "latitud": "13.654037513191746",
+                "longitud": "-89.16964314",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.16964314,
+                    13.654037513191746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "4",
+                "nombre": "Oscar Amaya",
+                "cv": "C:E EL Milagro",
+                "cargo": "Referente de zona",
+                "latitud": "13.667821754767953, ",
+                "longitud": "-89.18185671",
+                "distrito": "San Marcos"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "5",
+                "nombre": "Diego Sermeño",
+                "cv": " Instituto de San Marcos",
+                "cargo": "Referente de zona",
+                "latitud": "13.651882088115437",
+                "longitud": "-89.18375058",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.18375058,
+                    13.651882088115437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "6",
+                "nombre": "Jhony Argumedo",
+                "cv": "Parque Recreativo Cutacuzcat ",
+                "cargo": "Referente de zona",
+                "latitud": "13.655652832081854",
+                "longitud": "-89.18703415",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.18703415,
+                    13.655652832081854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "7",
+                "nombre": "Delmy Centeno",
+                "cv": "Centro de Votacion Quinta Santa Teresita",
+                "cargo": "Referente de zona",
+                "latitud": "13.659727156227921",
+                "longitud": "-89.19567348",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.19567348,
+                    13.659727156227921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "nombre": "Yessica Medrano",
+                "cv": "CO.E  10 de Octubre",
+                "cargo": "Referente de zona",
+                "latitud": "13.651161663151148",
+                "longitud": "-89.1659873",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.1659873,
+                    13.651161663151148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "9",
+                "nombre": "Leonardo Suriano",
+                "cv": "Cant�n los Andes",
+                "cargo": "Referente de zona",
+                "latitud": "13.653349750155591",
+                "longitud": "-89.16734509",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.16734509,
+                    13.653349750155591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "10",
+                "nombre": "Nelson Aguillon",
+                "cv": "CO.E Ignacio Pacheco",
+                "cargo": "Referente de zona",
+                "latitud": "13.654034409850066",
+                "longitud": "-89.16965051",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.16965051,
+                    13.654034409850066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "11",
+                "nombre": "Danilo Hernandez",
+                "cv": "Polideportivo Jardines",
+                "cargo": "Referente de zona",
+                "latitud": "13.661721437952636",
+                "longitud": "-89.16575927",
+                "distrito": "San Marcos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.16575927,
+                    13.661721437952636
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,582 @@
+{
+    "type": "FeatureCollection",
+    "name": "PLAN MOL 2026",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 1,
+                "N°": 1,
+                "DISTRITO": "STX",
+                "UBICACIÓN": "Cantón La Cuchilla, Sector La Escuela",
+                "DESCRIPCION": null,
+                "LATITUD": 13.633041,
+                "LONGITUD": "-89.105454"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.105454,
+                    13.633041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 2,
+                "N°": 2,
+                "DISTRITO": "STX",
+                "UBICACIÓN": "Barrio El Carmen",
+                "DESCRIPCION": null,
+                "LATITUD": 13.64172,
+                "LONGITUD": "-89.116074"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.116074,
+                    13.64172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3,
+                "N°": 3,
+                "DISTRITO": "STX",
+                "UBICACIÓN": "Planes de Joya Grande",
+                "DESCRIPCION": null,
+                "LATITUD": 13.660532,
+                "LONGITUD": "-89.100151"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.100151,
+                    13.660532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 4,
+                "N°": 4,
+                "DISTRITO": "PC",
+                "UBICACIÓN": "Calle principal hacia cancha comunal de Sanat Lucia, palones",
+                "DESCRIPCION": null,
+                "LATITUD": 13.634625,
+                "LONGITUD": "-89.166042"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.166042,
+                    13.634625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 5,
+                "N°": 5,
+                "DISTRITO": "PC",
+                "UBICACIÓN": "Callé principal a casa comunal de míl cumbres",
+                "DESCRIPCION": null,
+                "LATITUD": 13.615154,
+                "LONGITUD": " -89.201144"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.201144,
+                    13.615154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6,
+                "N°": 6,
+                "DISTRITO": "PC",
+                "UBICACIÓN": "Callé principal de Quezalapa #2",
+                "DESCRIPCION": null,
+                "LATITUD": 13.61027,
+                "LONGITUD": "-89.201228"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.201228,
+                    13.61027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 7,
+                "N°": 7,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Colonia Azucena pasaje Domínguez",
+                "DESCRIPCION": null,
+                "LATITUD": 13.65963,
+                "LONGITUD": "-89.182743000000002"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.182743,
+                    13.65963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 8,
+                "N°": 8,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Lotificación Santa fe, Calle Principal",
+                "DESCRIPCION": null,
+                "LATITUD": 13.659779,
+                "LONGITUD": "-89.17577"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17577,
+                    13.659779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 9,
+                "N°": 9,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Colonia los ángeles, pasaje C",
+                "DESCRIPCION": null,
+                "LATITUD": 13.654936,
+                "LONGITUD": "-89.162661"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.162661,
+                    13.654936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 10,
+                "N°": 10,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Colonia los andes 2, acceso principal",
+                "DESCRIPCION": null,
+                "LATITUD": 13.671603,
+                "LONGITUD": "-89.181361999999993"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.181362,
+                    13.671603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 11,
+                "N°": 11,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Lotificación altos de San Marcos, Calle Principal",
+                "DESCRIPCION": null,
+                "LATITUD": 13.686805,
+                "LONGITUD": "-89.178905"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.186553663904718,
+                    13.670327426090338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 12,
+                "N°": 12,
+                "DISTRITO": "SM",
+                "UBICACIÓN": "Lotificación Los Alpes 2 calle principal",
+                "DESCRIPCION": null,
+                "LATITUD": 13.658993,
+                "LONGITUD": "-89.167468999999997"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.167469,
+                    13.658993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 13,
+                "N°": 13,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Canton el jutillo, sector la escuela",
+                "DESCRIPCION": null,
+                "LATITUD": 13.582086,
+                "LONGITUD": "-89.216251999999997"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.216252,
+                    13.582086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 14,
+                "N°": 14,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Canton el jutillo, comunidad la esperanza",
+                "DESCRIPCION": null,
+                "LATITUD": 13.579722,
+                "LONGITUD": "-89.208055999999999"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.208056,
+                    13.579722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 15,
+                "N°": 15,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Casco Urbano, Comunidad la cañada",
+                "DESCRIPCION": null,
+                "LATITUD": 13.576111,
+                "LONGITUD": "-89.206666999999996"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.206667,
+                    13.576111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 16,
+                "N°": 16,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Casco urbano, Barrio el calvario.",
+                "DESCRIPCION": null,
+                "LATITUD": 13.565833,
+                "LONGITUD": "-89.209166999999994"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.209167,
+                    13.565833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 17,
+                "N°": 17,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Cantón El Carrizal, Caserío El Cusuco.",
+                "DESCRIPCION": null,
+                "LATITUD": 13.564444,
+                "LONGITUD": "-89.202222000000006"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.202222,
+                    13.564444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 18,
+                "N°": 18,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Caserio Las Margaritas ",
+                "DESCRIPCION": null,
+                "LATITUD": 13.555833,
+                "LONGITUD": "-89.193055999999999"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.193056,
+                    13.555833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 19,
+                "N°": 19,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "Comunidad El Guachipilin, Cantón Palo Grande.",
+                "DESCRIPCION": null,
+                "LATITUD": 13.544444,
+                "LONGITUD": "-89.220277999999993"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.220278,
+                    13.544444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 20,
+                "N°": 20,
+                "DISTRITO": "RM",
+                "UBICACIÓN": "  Cantón Plan del Mango",
+                "DESCRIPCION": null,
+                "LATITUD": 13.504167,
+                "LONGITUD": "-89.196944000000002"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.196944,
+                    13.504167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 21,
+                "N°": 21,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Cantón el Porvenir, sector el Paraíso. ",
+                "DESCRIPCION": null,
+                "LATITUD": 13.638662,
+                "LONGITUD": "-89.143792000000005"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.143792,
+                    13.638662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 22,
+                "N°": 22,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Cantón el Guaje, calle hacia la Ermita.",
+                "DESCRIPCION": null,
+                "LATITUD": 13.620631,
+                "LONGITUD": "-89.155872000000002"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.155872,
+                    13.620631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 23,
+                "N°": 23,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Lot. Brisas 1",
+                "DESCRIPCION": null,
+                "LATITUD": 13.650264,
+                "LONGITUD": "-89.155484999999999"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.155485,
+                    13.650264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 24,
+                "N°": 24,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Col. Rosa María, pasaje 2",
+                "DESCRIPCION": null,
+                "LATITUD": 13.63886,
+                "LONGITUD": "-89.134311999999994"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.134312,
+                    13.63886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 25,
+                "N°": 25,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "LOT. BRISAS DEL SUR",
+                "DESCRIPCION": null,
+                "LATITUD": 13.641824,
+                "LONGITUD": " -89.137556"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.137556,
+                    13.641824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 26,
+                "N°": 26,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Sector el Mango hacia Cantón Caña Brava",
+                "DESCRIPCION": null,
+                "LATITUD": 13.64606,
+                "LONGITUD": "-89.129075999999998"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.129076,
+                    13.64606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 27,
+                "N°": 27,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Cantón Chaltepe Central",
+                "DESCRIPCION": null,
+                "LATITUD": 13.64925,
+                "LONGITUD": "-89.139107999999993"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.139108,
+                    13.64925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 28,
+                "N°": 28,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Lot. Miramar, Palones",
+                "DESCRIPCION": null,
+                "LATITUD": 13.633521,
+                "LONGITUD": "-89.165098999999998"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.165099,
+                    13.633521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 29,
+                "N°": 29,
+                "DISTRITO": "ST",
+                "UBICACIÓN": "Final de Calle Cantón el Carmen 2",
+                "DESCRIPCION": null,
+                "LATITUD": 13.633862,
+                "LONGITUD": "-89.134129999999999"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.13413,
+                    13.633862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 30,
+                "N°": 30,
+                "DISTRITO": "ST",
+                "UBICACIÓN": " casa comunal Col Flor Amarilla. ",
+                "DESCRIPCION": null,
+                "LATITUD": 13.645982,
+                "LONGITUD": "-89.132157000000007"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.132157,
+                    13.645982
+                ]
+            }
+        }
+    ]
+}

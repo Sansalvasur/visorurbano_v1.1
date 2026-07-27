@@ -1,0 +1,2736 @@
+{
+    "type": "FeatureCollection",
+    "name": "CENTROS EDUCATIVOS",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3010,
+                "OBJECTID": 2698,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET137",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO CATÓLICO PADRE MARIO ZANCONATO, SEDE EDUCAME",
+                "Femenino": 28.0,
+                "Masculino": 49.0,
+                "Total": 77.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "9e73f02b-cabf-45c4-8189-21b4e0e62fc6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3022,
+                "OBJECTID": 2710,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET371",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"IGNACIO PACHECO CASTRO\", SEDE EDUCAME",
+                "Femenino": 2.0,
+                "Masculino": 4.0,
+                "Total": 6.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "9f735364-2c41-482d-9210-33ceb76339f5",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3029,
+                "OBJECTID": 2717,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET135",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL \"DE SAN MARCOS\", SEDE EDUCAME",
+                "Femenino": 52.0,
+                "Masculino": 88.0,
+                "Total": 140.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "a3b28b7a-35a6-497c-96de-cb2967109687",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3030,
+                "OBJECTID": 2718,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET136",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"GOLDTREE LIEBES \", SEDE EDUCAME",
+                "Femenino": 139.0,
+                "Masculino": 128.0,
+                "Total": 267.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "184ea74c-b6ae-4f0d-8853-b8470c09edb8",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6065,
+                "OBJECTID": 2691,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "21504",
+                "ENTIDAD_EDUCATIVA": "COLEGIO CRISTIANO \"REY DE GLORIA\"                                                                   ",
+                "Femenino": 204.0,
+                "Masculino": 240.0,
+                "Total": 444.0,
+                "lambert_xn": 479838.0,
+                "lambert_yn": 282900.0,
+                "GlobalID": "3f6fc3c2-74ca-4ae0-8abf-2aff9bf33767",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.186347846999979,
+                    13.667557826000063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6066,
+                "OBJECTID": 2692,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20432",
+                "ENTIDAD_EDUCATIVA": "LICEO CRISTIANO \"SAULO DE TARSO\"                                                                      ",
+                "Femenino": 194.0,
+                "Masculino": 214.0,
+                "Total": 408.0,
+                "lambert_xn": 480217.0,
+                "lambert_yn": 281769.0,
+                "GlobalID": "cdeb5da3-80a9-4cc9-bbd0-c40a3abd0873",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.182836601999952,
+                    13.657337424000048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6067,
+                "OBJECTID": 2693,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20429",
+                "ENTIDAD_EDUCATIVA": "COLEGIO \"SANTA TERESA DE JESÚS\"",
+                "Femenino": 960.0,
+                "Masculino": 846.0,
+                "Total": 1806.0,
+                "lambert_xn": 479786.0,
+                "lambert_yn": 282938.0,
+                "GlobalID": "875b6d76-b6ce-46eb-9213-5ff4f492ef13",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.186828782999953,
+                    13.667900940000038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6068,
+                "OBJECTID": 2694,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20442",
+                "ENTIDAD_EDUCATIVA": "LICEO POLITÉCNICO EL SALVADOR                                                                       ",
+                "Femenino": 60.0,
+                "Masculino": 86.0,
+                "Total": 146.0,
+                "lambert_xn": 480965.0,
+                "lambert_yn": 281623.0,
+                "GlobalID": "1b71a3cc-5815-410b-ae84-7349117143ad",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.175921758999948,
+                    13.656022783000026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6069,
+                "OBJECTID": 2695,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "21464",
+                "ENTIDAD_EDUCATIVA": "COLEGIO \"EL ALFARERO\"                                                                               ",
+                "Femenino": 65.0,
+                "Masculino": 105.0,
+                "Total": 170.0,
+                "lambert_xn": 481155.0,
+                "lambert_yn": 281647.0,
+                "GlobalID": "f71bbdea-f410-4f32-9a7f-9072f077bd5e",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.174165735999964,
+                    13.656240967000031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6070,
+                "OBJECTID": 2696,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20434",
+                "ENTIDAD_EDUCATIVA": "COLEGIO JOSE CECILIO DEL VALLE                                                                      ",
+                "Femenino": 31.0,
+                "Masculino": 27.0,
+                "Total": 58.0,
+                "lambert_xn": 479964.0,
+                "lambert_yn": 281100.0,
+                "GlobalID": "ec067597-662b-4e8d-be68-dbf11e0a3b12",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.185170350999954,
+                    13.651288627000042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6071,
+                "OBJECTID": 2697,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11486",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"COLONIA SAN ANTONIO\"                                                                ",
+                "Femenino": 354.0,
+                "Masculino": 447.0,
+                "Total": 801.0,
+                "lambert_xn": 479810.0,
+                "lambert_yn": 281490.0,
+                "GlobalID": "ff0f8826-0039-4087-b74a-2d51b0667bf6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.186596551999969,
+                    13.654812736000054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6072,
+                "OBJECTID": 2698,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET137",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO CATÓLICO PADRE MARIO ZANCONATO, SEDE EDUCAME",
+                "Femenino": 28.0,
+                "Masculino": 49.0,
+                "Total": 77.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "9e73f02b-cabf-45c4-8189-21b4e0e62fc6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6073,
+                "OBJECTID": 2699,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88043",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO CATÓLICO \"NUESTRA SEÑORA DEL ROSARIO\"                                            ",
+                "Femenino": 742.0,
+                "Masculino": 641.0,
+                "Total": 1383.0,
+                "lambert_xn": 480292.0,
+                "lambert_yn": 282036.0,
+                "GlobalID": "bc960ef0-675f-4b85-bfca-629d0961f174",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.182145237999976,
+                    13.659751333000031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6074,
+                "OBJECTID": 2700,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11481",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON GUADALUPE\"                                                                   ",
+                "Femenino": 257.0,
+                "Masculino": 283.0,
+                "Total": 540.0,
+                "lambert_xn": 481477.0,
+                "lambert_yn": 281787.0,
+                "GlobalID": "57cc0e6b-1c01-472a-b301-8e2f09c08964",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.171190385999978,
+                    13.657508508000035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6075,
+                "OBJECTID": 2701,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88044",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO CATÓLICO \"PADRE MARIO ZANCONATO\".                                                ",
+                "Femenino": 582.0,
+                "Masculino": 664.0,
+                "Total": 1246.0,
+                "lambert_xn": 480389.0,
+                "lambert_yn": 281709.0,
+                "GlobalID": "74589ece-db6c-4760-87f4-f1c58c594711",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.181246366999972,
+                    13.656796265000025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6076,
+                "OBJECTID": 2702,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11483",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"DOCTOR EUSEBIO CORDON CEA\"                                                          ",
+                "Femenino": 366.0,
+                "Masculino": 393.0,
+                "Total": 759.0,
+                "lambert_xn": 481256.0,
+                "lambert_yn": 281528.0,
+                "GlobalID": "2fa85706-5fc8-4e66-b1e4-775f252a537e",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17323139299998,
+                    13.655165993000026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6077,
+                "OBJECTID": 2703,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11493",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"DOMINGO FAUSTINO SARMIENTO\"                                                         ",
+                "Femenino": 511.0,
+                "Masculino": 553.0,
+                "Total": 1064.0,
+                "lambert_xn": 479518.0,
+                "lambert_yn": 282862.0,
+                "GlobalID": "654c34d4-a42c-496f-9a24-8a22dd32d3e5",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.189305497999953,
+                    13.667212087000053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6078,
+                "OBJECTID": 2704,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11478",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL \"DE SAN MARCOS\"                                                                  ",
+                "Femenino": 274.0,
+                "Masculino": 476.0,
+                "Total": 750.0,
+                "lambert_xn": 480171.0,
+                "lambert_yn": 281371.0,
+                "GlobalID": "6bba5e60-6587-4ca7-9131-cfe88000f854",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.183258982999973,
+                    13.653739612000038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6079,
+                "OBJECTID": 2705,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88045",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO CATÓLICO \"SAN ANTONIO\"                                                           ",
+                "Femenino": 546.0,
+                "Masculino": 565.0,
+                "Total": 1111.0,
+                "lambert_xn": 480600.0,
+                "lambert_yn": 276616.0,
+                "GlobalID": "743f1c28-db5b-437e-8dd7-1b1394135c96",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17926098199996,
+                    13.610762366000074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6080,
+                "OBJECTID": 2706,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11494",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"SAN MARCOS\"",
+                "Femenino": 144.0,
+                "Masculino": 164.0,
+                "Total": 308.0,
+                "lambert_xn": 480774.0,
+                "lambert_yn": 281722.0,
+                "GlobalID": "6c576bcd-8438-4c34-b07b-2cf1ac35f122",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.177687861999971,
+                    13.656916368000054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6081,
+                "OBJECTID": 2707,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11482",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"COLONIA EL MILAGRO\"",
+                "Femenino": 287.0,
+                "Masculino": 342.0,
+                "Total": 629.0,
+                "lambert_xn": 480311.0,
+                "lambert_yn": 282442.0,
+                "GlobalID": "8110e054-7c6b-4b15-8f44-6296dadbb8f9",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.181972455999983,
+                    13.663421270000072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6082,
+                "OBJECTID": 2708,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11488",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"PROFESOR JUSTO GONZALEZ\"",
+                "Femenino": 409.0,
+                "Masculino": 399.0,
+                "Total": 808.0,
+                "lambert_xn": 479997.0,
+                "lambert_yn": 281681.0,
+                "GlobalID": "f6f48603-8abf-44ea-b193-de8404a66628",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.184869463999974,
+                    13.656540477000021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6083,
+                "OBJECTID": 2709,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11489",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"COMUNIDAD 10 DE OCTUBRE\"",
+                "Femenino": 315.0,
+                "Masculino": 404.0,
+                "Total": 719.0,
+                "lambert_xn": 482089.0,
+                "lambert_yn": 281175.0,
+                "GlobalID": "166b99f3-8cbb-4b5d-93e9-cd6e1e131b87",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.165529696999954,
+                    13.651980553000044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6084,
+                "OBJECTID": 2710,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET371",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"IGNACIO PACHECO CASTRO\", SEDE EDUCAME",
+                "Femenino": 2.0,
+                "Masculino": 4.0,
+                "Total": 6.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "9f735364-2c41-482d-9210-33ceb76339f5",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6085,
+                "OBJECTID": 2711,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11492",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"IGNACIO PACHECO CASTRO\"",
+                "Femenino": 317.0,
+                "Masculino": 382.0,
+                "Total": 699.0,
+                "lambert_xn": 479915.0,
+                "lambert_yn": 282297.0,
+                "GlobalID": "aae854bd-0cd7-4a34-8a70-9e0acaca18e2",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.18563179299997,
+                    13.662107889000026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6086,
+                "OBJECTID": 2712,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11496",
+                "ENTIDAD_EDUCATIVA": "ESCUELA DE EDUCACION PARVULARIA \"SAN MARCOS\"                                                        ",
+                "Femenino": 149.0,
+                "Masculino": 161.0,
+                "Total": 310.0,
+                "lambert_xn": 481454.0,
+                "lambert_yn": 281446.0,
+                "GlobalID": "68b713b3-3748-49c5-a062-85f2d4561a0d",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.171400730999949,
+                    13.654426083000033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6087,
+                "OBJECTID": 2713,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11491",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL \" PROFESORA BERTHA FIDELIA CAÑAS\"",
+                "Femenino": 199.0,
+                "Masculino": 217.0,
+                "Total": 416.0,
+                "lambert_xn": 479840.0,
+                "lambert_yn": 280250.0,
+                "GlobalID": "c251c51c-b8f6-4119-a62d-57243fad0878",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.186310381999988,
+                    13.643604665000055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6088,
+                "OBJECTID": 2714,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11485",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON CASA DE PIEDRA\"",
+                "Femenino": 41.0,
+                "Masculino": 62.0,
+                "Total": 103.0,
+                "lambert_xn": 476911.0,
+                "lambert_yn": 279130.0,
+                "GlobalID": "7d8ba3ac-05bd-400b-b986-9848f6ee2ab9",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.213372719999938,
+                    13.633459052000035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6089,
+                "OBJECTID": 2715,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11484",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON SAN JOSE AGUACATITAN\"",
+                "Femenino": 50.0,
+                "Masculino": 55.0,
+                "Total": 105.0,
+                "lambert_xn": 474881.0,
+                "lambert_yn": 281398.0,
+                "GlobalID": "8a4ae177-ef9b-499f-a649-7640f2128b6d",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.232154585999979,
+                    13.653942364000045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6090,
+                "OBJECTID": 2716,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11479",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON LOS ANDES\"",
+                "Femenino": 44.0,
+                "Masculino": 57.0,
+                "Total": 101.0,
+                "lambert_xn": 479923.0,
+                "lambert_yn": 282998.0,
+                "GlobalID": "3b7e540c-12fb-400a-9805-6018ee587b4f",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.185562845999982,
+                    13.668444235000038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6091,
+                "OBJECTID": 2717,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET135",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL \"DE SAN MARCOS\", SEDE EDUCAME",
+                "Femenino": 52.0,
+                "Masculino": 88.0,
+                "Total": 140.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "a3b28b7a-35a6-497c-96de-cb2967109687",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6092,
+                "OBJECTID": 2718,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "12",
+                "MUNICIPIO": "SAN MARCOS                              ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET136",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"GOLDTREE LIEBES \", SEDE EDUCAME",
+                "Femenino": 139.0,
+                "Masculino": 128.0,
+                "Total": 267.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "184ea74c-b6ae-4f0d-8853-b8470c09edb8",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6093,
+                "OBJECTID": 2380,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "21187",
+                "ENTIDAD_EDUCATIVA": "LICEO CRISTIANO EL SALVADOR                                                                         ",
+                "Femenino": 89.0,
+                "Masculino": 106.0,
+                "Total": 195.0,
+                "lambert_xn": 480060.0,
+                "lambert_yn": 280040.0,
+                "GlobalID": "edf78cab-4a68-4508-a6bf-4132fc727fa0",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.184275526999954,
+                    13.641708020000067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6094,
+                "OBJECTID": 2381,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20424",
+                "ENTIDAD_EDUCATIVA": "COLEGIO JESUS DE NAZARETH                                                                           ",
+                "Femenino": 8.0,
+                "Masculino": 6.0,
+                "Total": 14.0,
+                "lambert_xn": 480579.0,
+                "lambert_yn": 276776.0,
+                "GlobalID": "56213ff5-9343-49ad-b8e0-127725e33e99",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.179456153,
+                    13.612208456000076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6095,
+                "OBJECTID": 2382,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70055",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON QUEZALAPA                                                                    ",
+                "Femenino": 208.0,
+                "Masculino": 276.0,
+                "Total": 484.0,
+                "lambert_xn": 478457.0,
+                "lambert_yn": 275905.0,
+                "GlobalID": "57d976b1-23ed-4921-9c43-847b397409e6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.199059631999944,
+                    13.604320437000069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6096,
+                "OBJECTID": 2383,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70044",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CASERIO LAS VICTORIAS, C/ AMAYON                                                    ",
+                "Femenino": 56.0,
+                "Masculino": 58.0,
+                "Total": 114.0,
+                "lambert_xn": 481036.0,
+                "lambert_yn": 263327.0,
+                "GlobalID": "e2feaebc-2c68-4a56-a919-30e216d7fb8d",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.175142337999944,
+                    13.490646573000049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6097,
+                "OBJECTID": 2384,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70042",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CASERIO  PLAN DEL MANGO, C/ AMAYON\"",
+                "Femenino": 117.0,
+                "Masculino": 141.0,
+                "Total": 258.0,
+                "lambert_xn": 478820.0,
+                "lambert_yn": 265081.0,
+                "GlobalID": "37a00353-b12d-44e5-b2f7-9e6d0fba3f23",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.195623767999962,
+                    13.506485466000072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6098,
+                "OBJECTID": 2385,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11495",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO \"GOLDTREE LIEBES \"                                                                   ",
+                "Femenino": 590.0,
+                "Masculino": 628.0,
+                "Total": 1218.0,
+                "lambert_xn": 479555.0,
+                "lambert_yn": 280013.0,
+                "GlobalID": "936bbf05-7b65-4525-8cb2-2fca729e1493",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.188942796999982,
+                    13.641460427000027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6099,
+                "OBJECTID": 2386,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70097",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CASERIO AMAYITO, C/ AZACUALPA\"",
+                "Femenino": 106.0,
+                "Masculino": 93.0,
+                "Total": 199.0,
+                "lambert_xn": 481370.0,
+                "lambert_yn": 270793.0,
+                "GlobalID": "ab5beb76-81e9-4d9d-9098-c1ac13cf5427",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.172106674999952,
+                    13.55813362300006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6100,
+                "OBJECTID": 2387,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70050",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"ELISA CARRILLO DE MENDOZA\"                                                          ",
+                "Femenino": 154.0,
+                "Masculino": 169.0,
+                "Total": 323.0,
+                "lambert_xn": 478505.0,
+                "lambert_yn": 274244.0,
+                "GlobalID": "8d84a9a7-da2b-46bf-a4f9-95d7252a101d",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.198603385999945,
+                    13.589307098000063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6101,
+                "OBJECTID": 2388,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "86324",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CASERIO SIHUATENANGO, C/ SAN ISIDRO\"                                                ",
+                "Femenino": 19.0,
+                "Masculino": 40.0,
+                "Total": 59.0,
+                "lambert_xn": 480026.0,
+                "lambert_yn": 273392.0,
+                "GlobalID": "c3a10816-39a5-46e9-8336-8b8d6be3ab78",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.184542619999945,
+                    13.581616862000033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6102,
+                "OBJECTID": 2389,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11468",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON MIL CUMBRES\"                                                                 ",
+                "Femenino": 120.0,
+                "Masculino": 144.0,
+                "Total": 264.0,
+                "lambert_xn": 478695.0,
+                "lambert_yn": 277425.0,
+                "GlobalID": "aab7bbd3-f001-425b-934d-6562c80c3c2c",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.19687176399998,
+                    13.618061408000074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6103,
+                "OBJECTID": 2390,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11469",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO \"PROFESOR BERNARDINO VILLAMARIONA\"                                               ",
+                "Femenino": 494.0,
+                "Masculino": 637.0,
+                "Total": 1131.0,
+                "lambert_xn": 480434.0,
+                "lambert_yn": 276829.0,
+                "GlobalID": "c6cf3d1f-caa4-4de8-9079-c8c8393798bb",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.180796515999987,
+                    13.612686538000048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6104,
+                "OBJECTID": 2391,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70049",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON LOMA Y MEDIA                                                                  ",
+                "Femenino": 110.0,
+                "Masculino": 139.0,
+                "Total": 249.0,
+                "lambert_xn": 476603.0,
+                "lambert_yn": 273984.0,
+                "GlobalID": "79741d75-9064-4ef5-8e7f-aab463eaec6c",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.216176558999962,
+                    13.586942144000034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6105,
+                "OBJECTID": 2392,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "86399",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"COMUNIDAD MONTELIZ, C/ PLANES DE RENDERO\"                                           ",
+                "Femenino": 45.0,
+                "Masculino": 48.0,
+                "Total": 93.0,
+                "lambert_xn": 481007.0,
+                "lambert_yn": 279891.0,
+                "GlobalID": "0e92dfa0-c1a2-4890-9eee-e536ced89e2b",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17552186599994,
+                    13.640367621000053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6106,
+                "OBJECTID": 2393,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88047",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CATOLICO  DE PANCHIMALCO                                                             ",
+                "Femenino": 212.0,
+                "Masculino": 231.0,
+                "Total": 443.0,
+                "lambert_xn": 480597.0,
+                "lambert_yn": 276618.0,
+                "GlobalID": "2c8ef027-a9a5-4f2d-84bf-a9520ba6a9ed",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.179288719999988,
+                    13.610780423000051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6107,
+                "OBJECTID": 2394,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11464",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON LOS TRONCONES\"",
+                "Femenino": 153.0,
+                "Masculino": 214.0,
+                "Total": 367.0,
+                "lambert_xn": 482282.0,
+                "lambert_yn": 270920.0,
+                "GlobalID": "80d68e53-d7a3-4b7c-83a7-d4222d6b0c5c",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.163681299999951,
+                    13.55928732600006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6108,
+                "OBJECTID": 2395,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11457",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \" CANTON SANTA LUCIA LOS PALONES\"                                                    ",
+                "Femenino": 88.0,
+                "Masculino": 101.0,
+                "Total": 189.0,
+                "lambert_xn": 481837.0,
+                "lambert_yn": 279239.0,
+                "GlobalID": "a840bd26-f95b-4173-8b82-f346dc89f98e",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.167846420999979,
+                    13.634479588000033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6109,
+                "OBJECTID": 2396,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70058",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON LAS CRUCITAS                                                                  ",
+                "Femenino": 139.0,
+                "Masculino": 151.0,
+                "Total": 290.0,
+                "lambert_xn": 481920.0,
+                "lambert_yn": 275163.0,
+                "GlobalID": "ecf8f8b1-eac7-496d-b819-ba3cf333c7d0",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.16705314799998,
+                    13.597637363000047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6110,
+                "OBJECTID": 2397,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "86397",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CASERIO LOS LINDEROS, C/ AZACUALPA\"                                                 ",
+                "Femenino": 35.0,
+                "Masculino": 30.0,
+                "Total": 65.0,
+                "lambert_xn": 480597.0,
+                "lambert_yn": 267543.0,
+                "GlobalID": "face86f7-3572-426d-9e24-38d4ceb89ef7",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.17922621699995,
+                    13.528751903000057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6111,
+                "OBJECTID": 2398,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70041",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON AMAYON                                                                        ",
+                "Femenino": 125.0,
+                "Masculino": 151.0,
+                "Total": 276.0,
+                "lambert_xn": 481591.0,
+                "lambert_yn": 266252.0,
+                "GlobalID": "03fd77d1-fae0-49b3-9141-e79105422e3c",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.170035140999971,
+                    13.517089130000045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6112,
+                "OBJECTID": 2399,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70046",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON AZACUALPA                                                                     ",
+                "Femenino": 122.0,
+                "Masculino": 175.0,
+                "Total": 297.0,
+                "lambert_xn": 480975.0,
+                "lambert_yn": 268836.0,
+                "GlobalID": "f181fd91-2bf1-4c0c-aab8-a8491e0ed198",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.175742954999976,
+                    13.540441799000064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6113,
+                "OBJECTID": 2400,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70043",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CASERIO LAS MORENAS, C/AMAYON                                                        ",
+                "Femenino": 82.0,
+                "Masculino": 93.0,
+                "Total": 175.0,
+                "lambert_xn": 480045.0,
+                "lambert_yn": 265119.0,
+                "GlobalID": "ef952b7d-d61f-4091-bd9c-2610fd1ac278",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.184308469999962,
+                    13.506837693000023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6114,
+                "OBJECTID": 2401,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70057",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON EL DIVISADERO                                                                 ",
+                "Femenino": 0.0,
+                "Masculino": 1.0,
+                "Total": 1.0,
+                "lambert_xn": 482415.0,
+                "lambert_yn": 276604.0,
+                "GlobalID": "5b65e9d1-0748-4812-9cf5-814592895fc6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.162487959999964,
+                    13.610665555000026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6115,
+                "OBJECTID": 2402,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70048",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON EL GUAYABO                                                                    ",
+                "Femenino": 50.0,
+                "Masculino": 59.0,
+                "Total": 109.0,
+                "lambert_xn": 478482.0,
+                "lambert_yn": 278823.0,
+                "GlobalID": "38edf129-9774-4542-a88b-a0170c98c9fc",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.198850902999936,
+                    13.630696267000076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6116,
+                "OBJECTID": 2403,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "10",
+                "MUNICIPIO": "PANCHIMALCO                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70056",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO  CANTÓN SAN ISIDRO",
+                "Femenino": 29.0,
+                "Masculino": 75.0,
+                "Total": 104.0,
+                "lambert_xn": 481300.0,
+                "lambert_yn": 272625.0,
+                "GlobalID": "f2eb2881-2232-4485-a4b4-71aefe8d7101",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.172765580999965,
+                    13.574692538000022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6117,
+                "OBJECTID": 2442,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "21522",
+                "ENTIDAD_EDUCATIVA": "COLEGIO \"THEODOR MOMMSEN\"                                                                             ",
+                "Femenino": 125.0,
+                "Masculino": 135.0,
+                "Total": 260.0,
+                "lambert_xn": 484616.0,
+                "lambert_yn": 280384.0,
+                "GlobalID": "9552ff31-d71d-4842-8e65-62eb2a8b961e",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.14216853299996,
+                    13.644845366000027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6118,
+                "OBJECTID": 2443,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "21367",
+                "ENTIDAD_EDUCATIVA": "COLEGIO \"EMILY DICKINSON\"                                                                           ",
+                "Femenino": 67.0,
+                "Masculino": 53.0,
+                "Total": 120.0,
+                "lambert_xn": 485816.0,
+                "lambert_yn": 280099.0,
+                "GlobalID": "8719fbc1-61e4-44df-b53a-733a439c93cd",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.131075936999935,
+                    13.642275430000041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6119,
+                "OBJECTID": 2444,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70078",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON CHALTEPE                                                                     ",
+                "Femenino": 47.0,
+                "Masculino": 46.0,
+                "Total": 93.0,
+                "lambert_xn": 484912.0,
+                "lambert_yn": 281021.0,
+                "GlobalID": "efbcab94-3d54-447b-b5bd-7885fb4de393",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.139436126999954,
+                    13.650604736000048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6120,
+                "OBJECTID": 2445,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70076",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON CAÑA BRAVA",
+                "Femenino": 6.0,
+                "Masculino": 8.0,
+                "Total": 14.0,
+                "lambert_xn": 485919.0,
+                "lambert_yn": 281253.0,
+                "GlobalID": "4cb8592e-4cd6-4c7b-b894-62f9def1b3a9",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.130129727999986,
+                    13.652706871000078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6121,
+                "OBJECTID": 2446,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "E0263",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"GENERAL MANUEL BELGRANO\", SEDE EDUCAME",
+                "Femenino": 79.0,
+                "Masculino": 92.0,
+                "Total": 171.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "c5acfded-1738-467e-8adc-5b376d287d45",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6122,
+                "OBJECTID": 2447,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11691",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"DOCTOR ANTONIO DIAZ\"",
+                "Femenino": 208.0,
+                "Masculino": 250.0,
+                "Total": 458.0,
+                "lambert_xn": 483467.0,
+                "lambert_yn": 281171.0,
+                "GlobalID": "21694182-abae-4bf4-9614-5e75c9c7a317",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.152792938999937,
+                    13.651952641000037
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6123,
+                "OBJECTID": 2448,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70083",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON  POTRERILLOS                                                                 ",
+                "Femenino": 29.0,
+                "Masculino": 14.0,
+                "Total": 43.0,
+                "lambert_xn": 483968.0,
+                "lambert_yn": 277773.0,
+                "GlobalID": "d966dc2d-e4c4-4c60-820d-70f8c257c7be",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.148142892999942,
+                    13.621241151000049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6124,
+                "OBJECTID": 2449,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88065",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CATOLICO \"SANTO TOMAS\"                                                               ",
+                "Femenino": 324.0,
+                "Masculino": 361.0,
+                "Total": 685.0,
+                "lambert_xn": 485612.0,
+                "lambert_yn": 280189.0,
+                "GlobalID": "cf5d543c-4389-4890-bda8-fa63bcba41cf",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.132961873999989,
+                    13.643087923000053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6125,
+                "OBJECTID": 2450,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70077",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON CUAPA                                                                        ",
+                "Femenino": 123.0,
+                "Masculino": 128.0,
+                "Total": 251.0,
+                "lambert_xn": 483538.0,
+                "lambert_yn": 282500.0,
+                "GlobalID": "8e78d0f6-0b00-4200-8546-2c8e022ae1a6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.152144463999946,
+                    13.663965791000066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6126,
+                "OBJECTID": 2451,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11696",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"RUBEN DARIO\"",
+                "Femenino": 43.0,
+                "Masculino": 29.0,
+                "Total": 72.0,
+                "lambert_xn": 485646.0,
+                "lambert_yn": 280166.0,
+                "GlobalID": "f28533c0-eacc-4905-84c7-9ce05ba2841a",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.13264750899998,
+                    13.642880197000068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6127,
+                "OBJECTID": 2452,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70079",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON EL CARMEN                                                                     ",
+                "Femenino": 46.0,
+                "Masculino": 36.0,
+                "Total": 82.0,
+                "lambert_xn": 486111.0,
+                "lambert_yn": 278485.0,
+                "GlobalID": "cecbe8d7-5a05-49c4-9f0e-14b23a24ecba",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.128341428999988,
+                    13.627688016000036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6128,
+                "OBJECTID": 2453,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70081",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CANTON EL PORVENIR                                                                  ",
+                "Femenino": 89.0,
+                "Masculino": 98.0,
+                "Total": 187.0,
+                "lambert_xn": 484087.0,
+                "lambert_yn": 279568.0,
+                "GlobalID": "9cde601c-341e-45da-98d3-9a91c81c9a81",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.147053273999973,
+                    13.637466716000063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6129,
+                "OBJECTID": 2454,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11694",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL \"SIMÓN BOLÍVAR\"                                                                  ",
+                "Femenino": 486.0,
+                "Masculino": 388.0,
+                "Total": 874.0,
+                "lambert_xn": 485459.0,
+                "lambert_yn": 280279.0,
+                "GlobalID": "5a906e91-a45d-4b9f-9e1a-ff2888feeea1",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.13437645099998,
+                    13.643900659000053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6130,
+                "OBJECTID": 2455,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "16",
+                "MUNICIPIO": "SANTO TOMAS                             ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11695",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"GENERAL MANUEL BELGRANO\"",
+                "Femenino": 2.0,
+                "Masculino": 1.0,
+                "Total": 3.0,
+                "lambert_xn": 485501.0,
+                "lambert_yn": 280123.0,
+                "GlobalID": "625bcaa4-b894-44ce-96f0-0607174536ae",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.133987458999968,
+                    13.642490796000061
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6131,
+                "OBJECTID": 3139,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20699",
+                "ENTIDAD_EDUCATIVA": "LICEO \"ISMAEL GARCÍA ELÍAS\"",
+                "Femenino": 5.0,
+                "Masculino": 8.0,
+                "Total": 13.0,
+                "lambert_xn": 487541.0,
+                "lambert_yn": 280108.0,
+                "GlobalID": "38439257-9f80-4b95-b624-bf4f8da560ea",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.115132608999943,
+                    13.642364763000046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6132,
+                "OBJECTID": 3140,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20701",
+                "ENTIDAD_EDUCATIVA": "COLEGIO CRISTIANO BILINGÜE \"AMIGOS PARA LATINOAMÉRICA\"                                              ",
+                "Femenino": 95.0,
+                "Masculino": 104.0,
+                "Total": 199.0,
+                "lambert_xn": 486725.0,
+                "lambert_yn": 279364.0,
+                "GlobalID": "fbc8f5f8-e352-4c15-bf65-1aec56578b8a",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.122671009999976,
+                    13.635636143000056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6133,
+                "OBJECTID": 3141,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70067",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CASERIO SANTA MARIA LA ESPERANZA,C/ ASINO",
+                "Femenino": 22.0,
+                "Masculino": 22.0,
+                "Total": 44.0,
+                "lambert_xn": 487176.0,
+                "lambert_yn": 281663.0,
+                "GlobalID": "272f57dd-39cd-4c33-9f7d-b8e13365acd2",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.118513216999986,
+                    13.656418708000047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6134,
+                "OBJECTID": 3142,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88064",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CATOLICO SAN MATEO APOSTOL",
+                "Femenino": 227.0,
+                "Masculino": 294.0,
+                "Total": 521.0,
+                "lambert_xn": 487120.0,
+                "lambert_yn": 280618.0,
+                "GlobalID": "82960fbb-59fb-4d3d-b357-a6e3a0470302",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.119026049999945,
+                    13.646972769000058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6135,
+                "OBJECTID": 3143,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70073",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CANTON SHALTIPA                                                                      ",
+                "Femenino": 73.0,
+                "Masculino": 84.0,
+                "Total": 157.0,
+                "lambert_xn": 488804.0,
+                "lambert_yn": 279814.0,
+                "GlobalID": "783148f8-4b02-4ef8-9468-0665028f35ec",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.103458116999946,
+                    13.639712503000055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6136,
+                "OBJECTID": 3144,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11682",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CAMILO CAMPOS\"                                                                      ",
+                "Femenino": 125.0,
+                "Masculino": 146.0,
+                "Total": 271.0,
+                "lambert_xn": 487228.0,
+                "lambert_yn": 280107.0,
+                "GlobalID": "dca5d450-81b0-4cd8-a219-4683eb9f90f7",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.118025517999968,
+                    13.642354352000041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6137,
+                "OBJECTID": 3145,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11687",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON LA CUCHILLA\"                                                                 ",
+                "Femenino": 100.0,
+                "Masculino": 114.0,
+                "Total": 214.0,
+                "lambert_xn": 488513.0,
+                "lambert_yn": 279248.0,
+                "GlobalID": "44a90d13-95a6-4e4e-9bba-f3f622d57b56",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.106145355999956,
+                    13.63459531500007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6138,
+                "OBJECTID": 3146,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70071",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CASERIO LOS PLANES, C/ JOYA GRANDE                                                  ",
+                "Femenino": 24.0,
+                "Masculino": 51.0,
+                "Total": 75.0,
+                "lambert_xn": 489184.0,
+                "lambert_yn": 282165.0,
+                "GlobalID": "836d5332-9109-4e76-b53d-f41c652b0e88",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.099955023999939,
+                    13.660964498000055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6139,
+                "OBJECTID": 3147,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70074",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CASERIO LA BASA, C/ LA CUCHILLA                                                      ",
+                "Femenino": 17.0,
+                "Masculino": 21.0,
+                "Total": 38.0,
+                "lambert_xn": 489779.0,
+                "lambert_yn": 278573.0,
+                "GlobalID": "5ebb1f85-9740-43cc-aafc-36c8614404cd",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.094442240999967,
+                    13.628498800000045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6140,
+                "OBJECTID": 3148,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11685",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON EL MORRO\"                                                                    ",
+                "Femenino": 43.0,
+                "Masculino": 45.0,
+                "Total": 88.0,
+                "lambert_xn": 486716.0,
+                "lambert_yn": 278150.0,
+                "GlobalID": "99ece35d-f592-4079-bbda-39c953b72d2f",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.122748463999983,
+                    13.62466282400004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6141,
+                "OBJECTID": 3149,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11683",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"JOSE MARIANO CALDERON\"",
+                "Femenino": 246.0,
+                "Masculino": 301.0,
+                "Total": 547.0,
+                "lambert_xn": 487027.0,
+                "lambert_yn": 279955.0,
+                "GlobalID": "d0344cc4-dcb7-498b-824b-31fb77e5703a",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.119882567,
+                    13.640979535000042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6142,
+                "OBJECTID": 3150,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70068",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CASERIO SANTA ISABEL, C/ ASINO                                                       ",
+                "Femenino": 52.0,
+                "Masculino": 52.0,
+                "Total": 104.0,
+                "lambert_xn": 486557.0,
+                "lambert_yn": 279792.0,
+                "GlobalID": "fabd76de-7b18-4dcd-b3c4-8d8b08f4ab09",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.124225754999941,
+                    13.639504031000058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6143,
+                "OBJECTID": 3151,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "ET356",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CAMILO CAMPOS\", SEDE EDUCAME",
+                "Femenino": 9.0,
+                "Masculino": 16.0,
+                "Total": 25.0,
+                "lambert_xn": null,
+                "lambert_yn": null,
+                "GlobalID": "ea39805b-7b99-4548-a356-a751013a5549",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6144,
+                "OBJECTID": 3152,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70069",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR  CASERIO EL SAUCE,C/ EL MORRO                                                        ",
+                "Femenino": 107.0,
+                "Masculino": 130.0,
+                "Total": 237.0,
+                "lambert_xn": 487486.0,
+                "lambert_yn": 277202.0,
+                "GlobalID": "297aaf18-d663-43ec-8990-4de5839165a9",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.11562803399994,
+                    13.616097351000064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6145,
+                "OBJECTID": 3153,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "14799",
+                "ENTIDAD_EDUCATIVA": "INSTITUTO NACIONAL DE \"SANTIAGO TEXACUANGOS\"                                                           ",
+                "Femenino": 121.0,
+                "Masculino": 102.0,
+                "Total": 223.0,
+                "lambert_xn": 486838.0,
+                "lambert_yn": 279755.0,
+                "GlobalID": "064ac49d-b5ce-4619-a8d4-3c6ccf06b12e",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.121628462,
+                    13.63917088900007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6146,
+                "OBJECTID": 3154,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "15",
+                "MUNICIPIO": "SANTIAGO TEXACUANGOS                    ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11684",
+                "ENTIDAD_EDUCATIVA": "ESCUELA DE EDUCACION PARVULARIA \"DE SANTIAGO TEXACUANGOS\"",
+                "Femenino": 116.0,
+                "Masculino": 142.0,
+                "Total": 258.0,
+                "lambert_xn": 487240.0,
+                "lambert_yn": 280162.0,
+                "GlobalID": "8c8f16ac-a88e-4331-b152-e2249f60517f",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.11791485699996,
+                    13.642851547000078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6147,
+                "OBJECTID": 2645,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PRIVADO",
+                "CODIGO_ENTIDAD": "20427",
+                "ENTIDAD_EDUCATIVA": "ESCUELA CRISTIANA ROSARIO DE MORA                                                                   ",
+                "Femenino": 79.0,
+                "Masculino": 68.0,
+                "Total": 147.0,
+                "lambert_xn": 477660.0,
+                "lambert_yn": 272629.0,
+                "GlobalID": "a78d550c-1eca-47a5-a179-5b082b7dffd2",
+                "layer": "CE PRIVADO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/1'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.206398756999988,
+                    13.574702756000022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6148,
+                "OBJECTID": 2646,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11471",
+                "ENTIDAD_EDUCATIVA": "COMPLEJO EDUCATIVO \"MANUEL JOSÉ ARCE\"                                                               ",
+                "Femenino": 706.0,
+                "Masculino": 764.0,
+                "Total": 1470.0,
+                "lambert_xn": 477885.0,
+                "lambert_yn": 272858.0,
+                "GlobalID": "62d551f6-a21b-4bdd-9161-1fa23a18c228",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.204321582999967,
+                    13.576774413000066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6149,
+                "OBJECTID": 2647,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11475",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"REPUBLICA DE AUSTRIA\"                                                               ",
+                "Femenino": 31.0,
+                "Masculino": 30.0,
+                "Total": 61.0,
+                "lambert_xn": 476673.0,
+                "lambert_yn": 269790.0,
+                "GlobalID": "b3912309-70a7-4687-9ddb-daa6ee1baf80",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.215495006999959,
+                    13.549033334000057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6150,
+                "OBJECTID": 2648,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11474",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON LAS BARROSAS\"                                                                ",
+                "Femenino": 142.0,
+                "Masculino": 149.0,
+                "Total": 291.0,
+                "lambert_xn": 478821.0,
+                "lambert_yn": 269186.0,
+                "GlobalID": "b515d1b0-1613-4eb4-99f1-23d0ba5d9dd6",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.195645379999974,
+                    13.543590400000028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6151,
+                "OBJECTID": 2649,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "86381",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON CERCO DE PIEDRA\"                                                             ",
+                "Femenino": 139.0,
+                "Masculino": 153.0,
+                "Total": 292.0,
+                "lambert_xn": 477595.0,
+                "lambert_yn": 262807.0,
+                "GlobalID": "23d60ab8-8657-4f30-9533-8e19d3ccff76",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.206921259999945,
+                    13.485921608000069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6152,
+                "OBJECTID": 2650,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11477",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON PALO GRANDE\"                                                                 ",
+                "Femenino": 95.0,
+                "Masculino": 135.0,
+                "Total": 230.0,
+                "lambert_xn": 476631.0,
+                "lambert_yn": 269415.0,
+                "GlobalID": "82d0988a-bbc0-46bd-8d91-287defe0c5c0",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.215879928999982,
+                    13.545643384000073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6153,
+                "OBJECTID": 2651,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "11472",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON EL CARRIZAL\"                                                                 ",
+                "Femenino": 53.0,
+                "Masculino": 72.0,
+                "Total": 125.0,
+                "lambert_xn": 478140.0,
+                "lambert_yn": 271700.0,
+                "GlobalID": "3a9d988f-68c6-43df-97a5-7e6cde4a6fff",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.201956407999944,
+                    13.566309250000074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6154,
+                "OBJECTID": 2652,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "70059",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CASERIO LAS MARGARITAS, C/ SAN RAMON",
+                "Femenino": 45.0,
+                "Masculino": 51.0,
+                "Total": 96.0,
+                "lambert_xn": 479475.0,
+                "lambert_yn": 270457.0,
+                "GlobalID": "280cc9c7-bb61-4f0f-ad0b-55a9d162301c",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.189612557999965,
+                    13.555083651000075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6155,
+                "OBJECTID": 2653,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "88095",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR CATÓLICO \"OBLATAS AL DIVINO                                                  AMOR\"                                                                      ",
+                "Femenino": 173.0,
+                "Masculino": 182.0,
+                "Total": 355.0,
+                "lambert_xn": 477334.0,
+                "lambert_yn": 271684.0,
+                "GlobalID": "39e3cd7a-e54e-4a13-a384-f8c5dfea9e50",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.209403352999971,
+                    13.566158396000048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6156,
+                "OBJECTID": 2654,
+                "CODIGO_DEPARTAMENTO": "06",
+                "DEPARTAMENTO": "SAN SALVADOR",
+                "CODIGO_MUNICIPIO": "11",
+                "MUNICIPIO": "ROSARIO DE MORA                         ",
+                "sector": "PUBLICO",
+                "CODIGO_ENTIDAD": "86330",
+                "ENTIDAD_EDUCATIVA": "CENTRO ESCOLAR \"CANTON EL JUTILLO\"",
+                "Femenino": 32.0,
+                "Masculino": 40.0,
+                "Total": 72.0,
+                "lambert_xn": 476603.0,
+                "lambert_yn": 273410.0,
+                "GlobalID": "32933bcf-c897-4d2c-8c19-bf5fa2526f68",
+                "layer": "CE PUBLICO",
+                "path": "url='https://services.arcgis.com/8TF1bhVJYrFsuHwX/arcgis/rest/services/CENTROS_EDUCATIVOS01/FeatureServer/0'"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.216171790999965,
+                    13.581753785000046
+                ]
+            }
+        }
+    ]
+}

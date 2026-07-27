@@ -1,0 +1,15 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "code-index": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\AMSSS-INNOVACION\\OneDrive\\Documentos\\VISOR DE SAN SALVADOR SUR"
+      ],
+      "enabled": true
+    }
+  }
+}

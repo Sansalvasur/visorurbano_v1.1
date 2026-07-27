@@ -1,0 +1,582 @@
+/* ==========================================================
+   VISOR URBANO SAN SALVADOR SUR
+   style.css
+========================================================== */
+
+:root {
+
+    --primary: #0B5ED7;
+    --primary-dark: #084298;
+
+    --secondary: #1f2937;
+
+    --background: #F5F7FA;
+
+    --panel: #FFFFFF;
+
+    --border: #D7DCE3;
+
+    --text: #1E293B;
+
+    --text-light: #64748B;
+
+    --success: #16A34A;
+
+    --warning: #F59E0B;
+
+    --danger: #DC2626;
+
+    --shadow: 0 6px 18px rgba(0, 0, 0, .10);
+
+    --radius: 12px;
+
+    --transition: .25s ease;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    font-family:
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background: var(--background);
+
+    color: var(--text);
+
+}
+
+/*==================================================
+TOPBAR
+==================================================*/
+
+#topbar {
+
+    height: 70px;
+
+    background: white;
+
+    border-bottom: 1px solid var(--border);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 20px;
+
+    box-shadow: var(--shadow);
+
+    position: relative;
+
+    z-index: 999;
+
+}
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+.logo img {
+
+    width: 48px;
+
+    height: 48px;
+
+    object-fit: contain;
+
+}
+
+.logo h2 {
+
+    font-size: 20px;
+
+    color: var(--primary);
+
+}
+
+.logo span {
+
+    color: var(--text-light);
+
+    font-size: 13px;
+
+}
+
+/*==================================================
+BUSCADOR
+==================================================*/
+
+.search-container {
+
+    width: 420px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.search-container input {
+
+    flex: 1;
+
+    height: 42px;
+
+    border: 1px solid var(--border);
+
+    border-right: none;
+
+    border-radius: 10px 0 0 10px;
+
+    padding: 0 15px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: var(--transition);
+
+}
+
+.search-container input:focus {
+
+    border-color: var(--primary);
+
+}
+
+.search-container button {
+
+    width: 50px;
+
+    height: 42px;
+
+    border: none;
+
+    cursor: pointer;
+
+    background: var(--primary);
+
+    color: white;
+
+    border-radius: 0 10px 10px 0;
+
+    transition: var(--transition);
+
+}
+
+.search-container button:hover {
+
+    background: var(--primary-dark);
+
+}
+
+/*==================================================
+BOTONES SUPERIORES
+==================================================*/
+
+.toolbar {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.toolbar button {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    background: white;
+
+    color: var(--secondary);
+
+    box-shadow: var(--shadow);
+
+    transition: var(--transition);
+
+}
+
+.toolbar button:hover {
+
+    background: var(--primary);
+
+    color: white;
+
+    transform: translateY(-2px);
+
+}
+
+/*==================================================
+CONTENEDOR
+==================================================*/
+
+#container {
+
+    width: 100%;
+
+    height: calc(100vh - 70px - 40px);
+
+    display: grid;
+
+    grid-template-columns: 320px 1fr 330px;
+
+}
+
+/*==================================================
+SIDEBAR
+==================================================*/
+
+#sidebar {
+
+    background: white;
+
+    border-right: 1px solid var(--border);
+
+    overflow: auto;
+
+}
+
+.sidebar-header {
+
+    padding: 18px;
+
+    border-bottom: 1px solid var(--border);
+
+}
+
+.sidebar-header h3 {
+
+    font-size: 18px;
+
+}
+
+.sidebar-section {
+
+    padding: 18px;
+
+    border-top: 1px solid var(--border);
+
+}
+
+#layerList {
+
+    padding: 15px;
+
+}
+
+/*==================================================
+ESTADISTICAS
+==================================================*/
+
+#statsPanel {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px;
+
+}
+
+.stat-card {
+
+    background: #F8FAFC;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+.stat-card h2 {
+
+    color: var(--primary);
+
+    font-size: 28px;
+
+}
+
+.stat-card span {
+
+    color: var(--text-light);
+
+    font-size: 13px;
+
+}
+
+/*==================================================
+MAPA
+==================================================*/
+
+#mapContainer {
+
+    position: relative;
+
+}
+
+#map {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+/*==================================================
+PANEL DERECHO
+==================================================*/
+
+#infoPanel {
+
+    background: white;
+
+    border-left: 1px solid var(--border);
+
+    overflow: auto;
+
+}
+
+.panel-title {
+
+    background: var(--primary);
+
+    color: white;
+
+    padding: 18px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}
+
+#featureInfo {
+
+    padding: 20px;
+
+}
+
+#featureInfo p {
+
+    color: var(--text-light);
+
+    line-height: 1.6;
+
+}
+
+/*==================================================
+FOOTER
+==================================================*/
+
+footer {
+
+    height: 40px;
+
+    background: white;
+
+    border-top: 1px solid var(--border);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 20px;
+
+    color: var(--text-light);
+
+    font-size: 13px;
+
+}
+
+/*==================================================
+LEAFLET
+==================================================*/
+
+.leaflet-container {
+
+    background: #E8EEF3;
+
+}
+
+.leaflet-popup-content {
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+}
+
+.leaflet-control-zoom {
+
+    border: none !important;
+
+    box-shadow: var(--shadow);
+
+}
+
+.leaflet-control-zoom a {
+
+    border: none !important;
+
+}
+
+/*==================================================
+SCROLL
+==================================================*/
+
+::-webkit-scrollbar {
+
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #B8C2CC;
+
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #EDF2F7;
+
+}
+
+/*==================================================
+ANIMACIONES
+==================================================*/
+
+button,
+.stat-card,
+input {
+
+    transition: all .25s ease;
+
+}
+
+button:active {
+
+    transform: scale(.96);
+
+}
+
+/*==================================================
+COLLAPSIBLE PANELS
+==================================================*/
+
+#container {
+    transition: grid-template-columns 0.3s ease;
+}
+
+#container.sidebar-collapsed {
+    grid-template-columns: 0px 1fr 330px;
+}
+
+#container.infopanel-collapsed {
+    grid-template-columns: 320px 1fr 0px;
+}
+
+#container.sidebar-collapsed.infopanel-collapsed {
+    grid-template-columns: 0px 1fr 0px;
+}
+
+#sidebar, #infoPanel {
+    transition: all 0.3s ease;
+}
+
+#sidebar.collapsed {
+    width: 0 !important;
+    border-right: none;
+}
+
+#infoPanel.collapsed {
+    width: 0 !important;
+    border-left: none;
+}
+
+.panel-toggle-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 60px;
+    background: white;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    color: var(--text-light);
+    transition: var(--transition);
+}
+
+.panel-toggle-btn:hover {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 6px 15px rgba(11, 94, 215, 0.25);
+}
+
+.panel-toggle-btn.left {
+    left: 0;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.panel-toggle-btn.right {
+    right: 0;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+
+body.dark-theme .panel-toggle-btn {
+    background: #1e293b;
+    border-color: #334155;
+    color: #f8fafc;
+}
+
+body.dark-theme .panel-toggle-btn:hover {
+    background: var(--primary);
+    color: white;
+}

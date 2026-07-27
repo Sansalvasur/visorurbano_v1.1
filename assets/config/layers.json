@@ -1,0 +1,118 @@
+{
+    "project": {
+        "name": "Visor Urbano San Salvador Sur",
+        "version": "1.0.0",
+        "defaultZoom": 13,
+        "defaultCenter": [
+            13.6768,
+            -89.1914
+        ]
+    },
+    "layers": [
+        {
+            "id": "municipio",
+            "name": "San Salvador Sur",
+            "file": "data/SAN SALVADOR SUR.geojson",
+            "geometry": "polygon",
+            "visible": true,
+            "searchable": false,
+            "popup": true,
+            "style": {
+                "color": "#1565C0",
+                "weight": 3,
+                "fillColor": "#90CAF9",
+                "fillOpacity": 0.15
+            }
+        },
+        {
+            "id": "cantones",
+            "name": "Cantones",
+            "file": "data/CANTONES SSS.geojson",
+            "geometry": "polygon",
+            "visible": false,
+            "searchable": true,
+            "popup": true,
+            "style": {
+                "color": "#43A047",
+                "weight": 2,
+                "fillColor": "#A5D6A7",
+                "fillOpacity": 0.20
+            }
+        },
+        {
+            "id": "calles",
+            "name": "Calles",
+            "file": "data/CALLES DE PANCHIMALCO.geojson",
+            "geometry": "line",
+            "visible": true,
+            "searchable": true,
+            "popup": true,
+            "style": {
+                "color": "#616161",
+                "weight": 2
+            }
+        },
+        {
+            "id": "rutas",
+            "name": "Rutas Alternas",
+            "file": "data/RUTAS ALTERNAS SSS.geojson",
+            "geometry": "line",
+            "visible": false,
+            "searchable": true,
+            "popup": true,
+            "style": {
+                "color": "#FB8C00",
+                "weight": 4,
+                "dashArray": "8 6"
+            }
+        },
+        {
+            "id": "luminarias",
+            "name": "Luminarias",
+            "file": "data/2° PROYECTO DE LUMINARIAS.geojson",
+            "geometry": "point",
+            "visible": true,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "lightbulb",
+            "markerColor": "#FDD835"
+        },
+        {
+            "id": "baches",
+            "name": "Baches",
+            "file": "data/BACHES.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "road",
+            "markerColor": "#E53935"
+        },
+        {
+            "id": "centros",
+            "name": "Centros de Votación",
+            "file": "data/CENTROS DE VOTACION.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": false,
+            "searchable": true,
+            "popup": true,
+            "icon": "school",
+            "markerColor": "#3949AB"
+        },
+        {
+            "id": "planmol",
+            "name": "Plan MOL 2026",
+            "file": "data/PLAN MOL 2026.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "hammer",
+            "markerColor": "#00897B"
+        }
+    ]
+}

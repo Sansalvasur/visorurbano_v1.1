@@ -1,0 +1,325 @@
+/* ==========================================================
+   SIGT — SAN SALVADOR SUR
+   admin.css — Panel administrativo
+   ========================================================== */
+
+.admin-body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--background);
+    color: var(--text);
+}
+
+/* ============ PANTALLA DE ACCESO ============ */
+
+.admin-login-screen {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0B5ED7 0%, #084298 100%);
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.admin-login-card {
+    background: var(--panel);
+    border-radius: 16px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+    padding: 32px 28px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-login-header {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.admin-login-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.admin-login-header h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: 1px;
+    margin: 0 0 4px;
+}
+
+.admin-login-header p {
+    font-size: 12px;
+    color: var(--text-light);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.admin-login-note {
+    font-size: 11px;
+    color: var(--text-light);
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 18px;
+}
+
+.admin-login-back {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.admin-login-back:hover {
+    text-decoration: underline;
+}
+
+.password-field {
+    position: relative;
+    display: flex;
+}
+
+.password-field .registry-input {
+    padding-right: 38px;
+}
+
+.password-toggle-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.password-toggle-btn:hover {
+    color: var(--primary);
+}
+
+/* ============ ESTRUCTURA DEL PANEL ============ */
+
+.admin-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.admin-user-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.admin-role-badge {
+    background: var(--primary);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 3px 9px;
+    border-radius: 10px;
+}
+
+.admin-role-badge.role-admin    { background: #DC2626; }
+.admin-role-badge.role-editor   { background: #0B5ED7; }
+.admin-role-badge.role-consulta { background: #64748B; }
+
+.admin-topbar-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--text);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.admin-topbar-btn:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+/* ============ PESTAÑAS ============ */
+
+.admin-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 0 16px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+}
+
+.admin-tab {
+    border: none;
+    background: transparent;
+    padding: 14px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-light);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.admin-tab:hover { color: var(--primary); }
+
+.admin-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+/* ============ CUERPO ============ */
+
+.admin-main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    min-height: 0;
+}
+
+.admin-side {
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 18px;
+}
+
+.admin-panel { display: none; }
+.admin-panel.active { display: block; }
+
+.admin-panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.admin-panel-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.admin-compact-btn {
+    width: auto !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+}
+
+.admin-list {
+    max-height: none;
+    margin-top: 12px;
+}
+
+.admin-item-sub {
+    font-size: 11px;
+    color: var(--text-light);
+}
+
+.admin-role-select {
+    width: auto !important;
+    padding: 4px 8px !important;
+    font-size: 11px !important;
+}
+
+.admin-map-wrap {
+    position: relative;
+    min-height: 0;
+}
+
+#adminMap {
+    width: 100%;
+    height: 100%;
+}
+
+/* ============ DASHBOARD ============ */
+
+.admin-chart-wrap {
+    position: relative;
+    width: 100%;
+    margin: 16px 0;
+}
+
+/* ============ SEGUIMIENTO ============ */
+
+.admin-timeline {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.admin-timeline-item {
+    border-left: 3px solid var(--primary);
+    padding: 8px 12px;
+    background: #f8fafc;
+    border-radius: 0 8px 8px 0;
+}
+
+.admin-timeline-item p {
+    margin: 4px 0;
+    font-size: 13px;
+    color: var(--text);
+}
+
+.admin-timeline-date {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-light);
+}
+
+body.dark-theme .admin-timeline-item {
+    background: #0f172a;
+}
+
+/* ============ RESPONSIVE ============ */
+
+@media (max-width: 900px) {
+    .admin-main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 320px;
+    }
+
+    .admin-side {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+}

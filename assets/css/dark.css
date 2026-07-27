@@ -1,0 +1,177 @@
+/* ==========================================================
+   VISOR URBANO SAN SALVADOR SUR
+   dark.css
+   ========================================================== */
+
+body.dark-theme {
+    --background: #0f172a;
+    --panel: #1e293b;
+    --border: #334155;
+    --text: #f8fafc;
+    --text-light: #94a3b8;
+    --secondary: #e2e8f0;
+    --shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+body.dark-theme #topbar,
+body.dark-theme #sidebar,
+body.dark-theme #infoPanel,
+body.dark-theme footer {
+    background: #1e293b;
+    border-color: #334155;
+    color: #f8fafc;
+}
+
+body.dark-theme .sidebar-header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-color: #334155;
+}
+
+body.dark-theme .sidebar-header h3 {
+    color: #f8fafc;
+}
+
+body.dark-theme .layer-item {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-theme .layer-item:hover {
+    border-color: #475569;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+body.dark-theme .layer-name {
+    color: #f8fafc;
+}
+
+body.dark-theme .layer-btn:hover {
+    background: #334155;
+}
+
+body.dark-theme .layer-controls-expanded {
+    border-color: #334155;
+}
+
+body.dark-theme .stat-card {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-theme .stat-card:hover {
+    background: #1e293b;
+    border-color: rgba(11, 94, 215, 0.5);
+    box-shadow: 0 4px 12px rgba(11, 94, 215, 0.15);
+}
+
+body.dark-theme .stat-card h2 {
+    color: #3b82f6;
+}
+
+body.dark-theme input {
+    background: #0f172a;
+    border-color: #334155;
+    color: #f8fafc;
+}
+
+body.dark-theme input:focus {
+    border-color: #3b82f6;
+}
+
+body.dark-theme .toolbar button {
+    background: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+body.dark-theme .toolbar button:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* Custom Popup styles in dark mode */
+body.dark-theme .leaflet-popup-content-wrapper {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+    color: #f8fafc !important;
+}
+
+body.dark-theme .popup-table tr {
+    border-color: #334155;
+}
+
+body.dark-theme .popup-table td.popup-value {
+    color: #cbd5e1;
+}
+
+body.dark-theme .popup-table tr:nth-child(even) {
+    background-color: #0f172a;
+}
+
+body.dark-theme .popup-footer {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-theme .popup-btn-secondary {
+    background: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+body.dark-theme .popup-btn-secondary:hover {
+    background: #334155;
+}
+
+/* Scrollbars in dark mode */
+body.dark-theme ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+body.dark-theme ::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+/* Registro (tracks / puntos) in dark mode */
+body.dark-theme .registry-item,
+body.dark-theme .registry-input,
+body.dark-theme .registry-capture-banner {
+    background: #0f172a;
+    border-color: #334155;
+    color: #f8fafc;
+}
+
+body.dark-theme .registry-item-title {
+    color: #f8fafc;
+}
+
+body.dark-theme .registry-item-btn:hover {
+    background: #334155;
+}
+
+body.dark-theme .registry-export-btn {
+    border-color: #334155;
+    color: #94a3b8;
+}
+
+body.dark-theme .registry-export-btn:hover {
+    background: #334155;
+    color: #3b82f6;
+}
+
+body.dark-theme .registry-modal {
+    background: #1e293b;
+}
+
+body.dark-theme .registry-modal-footer {
+    border-color: #334155;
+}
+
+body.dark-theme .registry-field-label {
+    color: #94a3b8;
+}
+
+body.dark-theme .registry-auth-status {
+    color: #f8fafc;
+}

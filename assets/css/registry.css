@@ -1,0 +1,1158 @@
+/* ==========================================================
+   VISOR URBANO SAN SALVADOR SUR
+   registry.css
+   Estilos para el registro de Tracks y Puntos
+   ========================================================== */
+
+.registry-section h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: var(--text);
+    margin-bottom: 12px;
+}
+
+/* Auth (login / logged-in status) */
+.registry-auth-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.registry-auth-status span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.registry-auth-status i {
+    color: var(--success);
+}
+
+.registry-auth-error {
+    font-size: 12px;
+    color: var(--danger);
+    font-weight: 600;
+    min-height: 16px;
+    margin-top: 8px;
+}
+
+.registry-add-btn {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.registry-add-btn:hover {
+    background: var(--primary-dark);
+}
+
+.registry-export-btn {
+    width: 100%;
+    background: transparent;
+    color: var(--text-light);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    transition: var(--transition);
+}
+
+.registry-export-btn:hover {
+    background: #f1f5f9;
+    color: var(--primary);
+}
+
+.registry-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.registry-empty {
+    font-size: 12px;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.registry-item {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.registry-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.registry-item-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.registry-item-badge {
+    align-self: flex-start;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.registry-item-actions {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.registry-item-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    transition: var(--transition);
+}
+
+.registry-item-btn:hover {
+    background: #f1f5f9;
+    color: var(--primary);
+}
+
+/* Instruction banner shown over the map during capture */
+.registry-capture-banner {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    background: var(--panel);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 10px 16px;
+    display: none;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    z-index: 1200;
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    max-width: 90%;
+}
+
+.registry-capture-banner.active {
+    display: flex;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.registry-capture-banner i {
+    color: var(--primary);
+}
+
+.registry-banner-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.registry-banner-cancel {
+    background: var(--danger);
+}
+
+/* Modal */
+.registry-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.5);
+    z-index: 5000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.registry-modal-overlay.active {
+    display: flex;
+}
+
+.registry-modal {
+    background: var(--panel);
+    border-radius: var(--radius);
+    width: 100%;
+    max-width: 420px;
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.registry-modal-header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registry-modal-header h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.registry-modal-close {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registry-modal-close:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.registry-modal-body {
+    padding: 18px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.registry-field-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-light);
+    margin: 12px 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.registry-field-label:first-child {
+    margin-top: 0;
+}
+
+.registry-input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--text);
+    background: white;
+    outline: none;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.registry-input:focus {
+    border-color: var(--primary);
+}
+
+.registry-textarea {
+    resize: vertical;
+    min-height: 70px;
+}
+
+.registry-modal-footer {
+    padding: 14px 18px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Photo previews inside the form */
+.registry-photo-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.registry-photo-thumb {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.registry-photo-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.registry-photo-remove {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: rgba(220, 38, 38, 0.9);
+    color: white;
+    border: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Photo gallery inside map popups */
+.registry-popup-gallery {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.registry-popup-photo {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+    cursor: zoom-in;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.registry-popup-photo:hover,
+.registry-popup-photo:active {
+    transform: scale(1.04);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+}
+
+/* Las miniaturas del formulario también se amplían al tocarlas */
+.registry-photo-thumb img {
+    cursor: zoom-in;
+}
+
+/* ==========================================================
+   VISOR DE FOTOGRAFÍAS A PANTALLA COMPLETA
+   ========================================================== */
+
+.sigt-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 6000;            /* por encima del formulario flotante */
+    background: rgba(0, 0, 0, .92);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    /* Respeta las zonas seguras de los móviles con muesca */
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+
+.sigt-lightbox.active {
+    display: flex;
+}
+
+body.sigt-lightbox-abierto {
+    overflow: hidden;
+}
+
+.sigt-lb-figura {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sigt-lb-img {
+    max-width: 100%;
+    max-height: calc(100dvh - 60px);
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .6);
+    /* Permite hacer zoom con dos dedos sobre la foto */
+    touch-action: pinch-zoom;
+}
+
+.sigt-lb-cerrar,
+.sigt-lb-nav {
+    position: absolute;
+    background: rgba(255, 255, 255, .14);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background .2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.sigt-lb-cerrar:hover,
+.sigt-lb-nav:hover,
+.sigt-lb-cerrar:active,
+.sigt-lb-nav:active {
+    background: rgba(255, 255, 255, .3);
+}
+
+.sigt-lb-cerrar {
+    top: max(14px, env(safe-area-inset-top));
+    right: 14px;
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+}
+
+.sigt-lb-nav {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.sigt-lb-nav.prev { left: 14px; }
+.sigt-lb-nav.next { right: 14px; }
+
+.sigt-lb-contador {
+    position: absolute;
+    bottom: max(16px, env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: rgba(0, 0, 0, .55);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+@media (max-width: 768px) {
+    .sigt-lightbox {
+        padding: 8px;
+    }
+
+    .sigt-lb-nav {
+        width: 44px;
+        height: 44px;
+    }
+
+    .sigt-lb-nav.prev { left: 6px; }
+    .sigt-lb-nav.next { right: 6px; }
+
+    .sigt-lb-img {
+        max-height: calc(100dvh - 120px);
+    }
+}
+
+/* ==========================================================
+   SIGT — consulta pública en el visor
+   ========================================================== */
+
+.sigt-filters {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.sigt-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.sigt-metric {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 6px;
+    text-align: center;
+}
+
+.sigt-metric h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0;
+}
+
+.sigt-metric span {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+body.dark-theme .sigt-metric {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-theme .sigt-metric h4 {
+    color: #3b82f6;
+}
+
+.sigt-resumen {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.sigt-resumen-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text);
+}
+
+.sigt-resumen-item span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sigt-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Etiquetas de estado / prioridad dentro de los popups */
+.sigt-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.sigt-badge {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding: 3px 9px;
+    border-radius: 10px;
+}
+
+/* Botones de alta apilados */
+.sigt-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* ==========================================================
+   ESTADO DE CONEXIÓN Y COLA DE SINCRONIZACIÓN
+   ========================================================== */
+
+.sigt-conn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.35;
+    border: 1px solid transparent;
+}
+
+.sigt-conn i {
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.sigt-conn.online {
+    background: #ecfdf5;
+    border-color: #a7f3d0;
+    color: #047857;
+}
+
+.sigt-conn.offline {
+    background: #fff7ed;
+    border-color: #fed7aa;
+    color: #c2410c;
+}
+
+.sigt-conn.sync {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+}
+
+body.dark-theme .sigt-conn.online {
+    background: rgba(4, 120, 87, .15);
+    border-color: #047857;
+    color: #6ee7b7;
+}
+
+body.dark-theme .sigt-conn.offline {
+    background: rgba(194, 65, 12, .15);
+    border-color: #c2410c;
+    color: #fdba74;
+}
+
+body.dark-theme .sigt-conn.sync {
+    background: rgba(29, 78, 216, .15);
+    border-color: #1d4ed8;
+    color: #93c5fd;
+}
+
+/* Insignia con el número de registros por subir */
+.sigt-pending-badge {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9px;
+    background: var(--warning, #F59E0B);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+}
+
+.tab-btn {
+    position: relative;
+}
+
+/* Registros aún no subidos */
+.registry-item.pendiente {
+    border-style: dashed;
+    border-color: var(--warning, #F59E0B);
+    background: #fffbeb;
+}
+
+body.dark-theme .registry-item.pendiente {
+    background: rgba(245, 158, 11, .08);
+}
+
+.registry-item-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.pendiente-badge {
+    background: var(--warning, #F59E0B) !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Marcadores pendientes en el mapa */
+.marcador-pendiente .custom-marker-pin {
+    border-style: dashed;
+    border-color: #F59E0B;
+    opacity: .85;
+}
+
+/* ==========================================================
+   FORMULARIO FLOTANTE CON MAPA DE VERIFICACIÓN
+   ========================================================== */
+
+.sigt-modal-wide {
+    max-width: 520px;
+}
+
+.sigt-form-map {
+    width: 100%;
+    height: 220px;
+    /* El cuerpo del modal es un flex en columna: sin flex-shrink:0 el mapa
+       se aplasta hasta desaparecer cuando el formulario no cabe (pasa en
+       cuanto la pantalla es pequeña). */
+    flex-shrink: 0;
+    min-height: 180px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.sigt-coords {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.sigt-coord-label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    color: var(--text-light);
+    margin-bottom: 4px;
+}
+
+.sigt-coord-hint {
+    font-size: 11px;
+    color: var(--text-light);
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+/* Estado de la geolocalización dentro del formulario */
+.sigt-geo-estado {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 11px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    line-height: 1.35;
+}
+
+.sigt-geo-estado.buscando {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+}
+
+.sigt-geo-estado.ok {
+    background: #ecfdf5;
+    border-color: #a7f3d0;
+    color: #047857;
+}
+
+.sigt-geo-estado.manual {
+    background: #f8fafc;
+    border-color: var(--border);
+    color: var(--text-light);
+}
+
+.sigt-geo-estado.error {
+    background: #fff7ed;
+    border-color: #fed7aa;
+    color: #c2410c;
+}
+
+body.dark-theme .sigt-geo-estado.buscando {
+    background: rgba(29, 78, 216, .15);
+    border-color: #1d4ed8;
+    color: #93c5fd;
+}
+
+body.dark-theme .sigt-geo-estado.ok {
+    background: rgba(4, 120, 87, .15);
+    border-color: #047857;
+    color: #6ee7b7;
+}
+
+body.dark-theme .sigt-geo-estado.manual {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+body.dark-theme .sigt-geo-estado.error {
+    background: rgba(194, 65, 12, .15);
+    border-color: #c2410c;
+    color: #fdba74;
+}
+
+.sigt-track-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 14px;
+}
+
+body.dark-theme .sigt-track-summary {
+    background: #0f172a;
+    border-color: #334155;
+    color: #3b82f6;
+}
+
+/* Enlace al panel administrativo */
+.registry-admin-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: var(--secondary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.registry-admin-link:hover {
+    background: var(--primary);
+}
+
+/* ==========================================================
+   PANEL DE GESTIÓN (ocupa el área del mapa)
+   ========================================================== */
+
+.sigt-workspace {
+    position: absolute;
+    inset: 0;
+    z-index: 1400;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+}
+
+.sigt-workspace[hidden] {
+    display: none !important;
+}
+
+.sigt-ws-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 18px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.sigt-ws-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.sigt-ws-cerrar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, .18);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background .2s ease;
+}
+
+.sigt-ws-cerrar:hover,
+.sigt-ws-cerrar:active {
+    background: rgba(255, 255, 255, .34);
+}
+
+.sigt-ws-tabs {
+    display: flex;
+    gap: 2px;
+    padding: 0 12px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    flex-shrink: 0;
+}
+
+.sigt-ws-tab {
+    border: none;
+    background: transparent;
+    padding: 13px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-light);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.sigt-ws-tab:hover { color: var(--primary); }
+
+.sigt-ws-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+.sigt-ws-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 18px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sigt-ws-panel { display: none; }
+.sigt-ws-panel.active { display: block; }
+
+.sigt-ws-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.sigt-ws-lista {
+    max-height: none;
+    margin-top: 12px;
+}
+
+/* En pantallas anchas los registros se muestran en varias columnas */
+@media (min-width: 900px) {
+    .sigt-ws-lista {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+        gap: 10px;
+    }
+}
+
+.sigt-ws-export {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.sigt-ws-export .registry-export-btn {
+    margin-top: 0;
+}
+
+/* Botones que abren las ventanas */
+.sigt-abrir-btn {
+    margin-bottom: 8px;
+}
+
+/* Contador de elementos por capa del SIGT */
+.sigt-layer-count {
+    background: #e2e8f0;
+    color: var(--text-light);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+body.dark-theme .sigt-layer-count {
+    background: #334155;
+    color: #cbd5e1;
+}
+
+/* ==========================================================
+   VENTANA DE DASHBOARD
+   ========================================================== */
+
+.sigt-dashboard-modal {
+    max-width: 860px;
+    width: 100%;
+}
+
+.sigt-dash-metrics {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    margin-bottom: 16px;
+}
+
+.sigt-dash-controles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.sigt-dash-chart {
+    position: relative;
+    width: 100%;
+    min-height: 240px;
+    margin-bottom: 16px;
+}
+
+.sigt-dash-tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.sigt-dash-tabla th,
+.sigt-dash-tabla td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.sigt-dash-tabla th {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    color: var(--text-light);
+}
+
+.sigt-dash-tabla td:last-child,
+.sigt-dash-tabla th:last-child {
+    text-align: right;
+    font-weight: 700;
+}
+
+.sigt-dash-color {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* ==========================================================
+   ADMINISTRADOR DE USUARIOS
+   ========================================================== */
+
+.sigt-usuario-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.sigt-usuario-cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sigt-usuario-correo {
+    font-size: 11px;
+    color: var(--text-light);
+    word-break: break-all;
+}
+
+.sigt-usuario-acciones {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.sigt-usuario-acciones .admin-role-select {
+    flex: 1;
+    min-width: 120px;
+}
+
+.sigt-badge-inactivo {
+    background: #64748B !important;
+}
+
+@media (max-width: 768px) {
+    .sigt-ws-tab {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .sigt-ws-body {
+        padding: 14px;
+    }
+
+    .sigt-dash-chart {
+        min-height: 200px;
+    }
+}

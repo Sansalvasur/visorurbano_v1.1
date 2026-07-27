@@ -1,0 +1,323 @@
+{
+    "project": {
+        "name": "Visor Urbano San Salvador Sur",
+        "version": "1.0.0",
+        "defaultZoom": 13,
+        "defaultCenter": [
+            13.6768,
+            -89.1914
+        ]
+    },
+    "layers": [
+        {
+            "id": "municipio",
+            "name": "San Salvador Sur",
+            "file": "data/SAN SALVADOR SUR.geojson",
+            "geometry": "polygon",
+            "visible": true,
+            "searchable": false,
+            "popup": true,
+            "style": {
+                "color": "#1565C0",
+                "weight": 3,
+                "fillColor": "#90CAF9",
+                "fillOpacity": 0
+            }
+        },
+        {
+            "id": "cantones",
+            "name": "Cantones",
+            "file": "data/CANTONES SSS.geojson",
+            "geometry": "polygon",
+            "visible": false,
+            "searchable": true,
+            "popup": true,
+            "styleType": "categorized",
+            "categorizedField": "DISTRITO",
+            "categories": {
+                "SAN MARCOS": {
+                    "color": "#00796B",
+                    "weight": 2,
+                    "fillColor": "#20B2AA",
+                    "fillOpacity": 0
+                },
+                "ROSARIO DE MORA": {
+                    "color": "#283593",
+                    "weight": 2,
+                    "fillColor": "#9FA8DA",
+                    "fillOpacity": 0
+                },
+                "SANTO TOMAS": {
+                    "color": "#4527A0",
+                    "weight": 2,
+                    "fillColor": "#B39DDB",
+                    "fillOpacity": 0
+                },
+                "SANTIAGO TEXACUANGOS": {
+                    "color": "#2E7D32",
+                    "weight": 2,
+                    "fillColor": "#A5D6A7",
+                    "fillOpacity": 0
+                },
+                "PANCHIMALCO": {
+                    "color": "#37474F",
+                    "weight": 2,
+                    "fillColor": "#B0BEC5",
+                    "fillOpacity": 0
+                }
+            },
+            "defaultStyle": {
+                "color": "#546E7A",
+                "weight": 2,
+                "fillColor": "#CFD8DC",
+                "fillOpacity": 0
+            }
+        },
+        {
+            "id": "calles_panchimalco",
+            "name": "Calles Panchimalco",
+            "file": "data/CALLES DE PANCHIMALCO.geojson",
+            "geometry": "line",
+            "visible": true,
+            "searchable": true,
+            "popup": true,
+            "styleType": "categorized",
+            "categorizedField": "Estado",
+            "categories": {
+                "Tierra": {
+                    "color": "#795548",
+                    "weight": 3
+                },
+                "Asfalto": {
+                    "color": "#212121",
+                    "weight": 3
+                },
+                "Asfaltado": {
+                    "color": "#212121",
+                    "weight": 3
+                },
+                "Pavimento": {
+                    "color": "#0B5ED7",
+                    "weight": 3
+                },
+                "Pavimentado": {
+                    "color": "#0B5ED7",
+                    "weight": 3
+                },
+                "Adoquines y piedra": {
+                    "color": "#7E57C2",
+                    "weight": 3
+                },
+                "Adoquin": {
+                    "color": "#7E57C2",
+                    "weight": 3
+                },
+                "Piedra": {
+                    "color": "#607D8B",
+                    "weight": 3
+                },
+                "Huella vehicular": {
+                    "color": "#E65100",
+                    "weight": 2.5,
+                    "dashArray": "6 4"
+                },
+                "Entrada de parque acuático": {
+                    "color": "#009688",
+                    "weight": 3
+                },
+                "Entrada de parque acuático ": {
+                    "color": "#009688",
+                    "weight": 3
+                }
+            },
+            "defaultStyle": {
+                "color": "#9E9E9E",
+                "weight": 2
+            }
+        },
+        {
+            "id": "calles_san_marcos",
+            "name": "Calles San Marcos",
+            "file": "data/CALLES SAN MARCOS.geojson",
+            "geometry": "line",
+            "visible": true,
+            "searchable": true,
+            "popup": true,
+            "styleType": "categorized",
+            "categorizedField": "Estado",
+            "categories": {
+                "Tierra": {
+                    "color": "#795548",
+                    "weight": 3
+                },
+                "Asfalto": {
+                    "color": "#212121",
+                    "weight": 3
+                },
+                "Pavimento": {
+                    "color": "#0B5ED7",
+                    "weight": 3
+                },
+                "Adoquin": {
+                    "color": "#7E57C2",
+                    "weight": 3
+                },
+                "Piedra": {
+                    "color": "#607D8B",
+                    "weight": 3
+                },
+                "Miselaneo": {
+                    "color": "#D81B60",
+                    "weight": 2.5
+                }
+            },
+            "defaultStyle": {
+                "color": "#9E9E9E",
+                "weight": 2
+            }
+        },
+        {
+            "id": "rutas",
+            "name": "Rutas Alternas",
+            "file": "data/RUTAS ALTERNAS SSS.geojson",
+            "geometry": "line",
+            "visible": false,
+            "searchable": true,
+            "popup": true,
+            "style": {
+                "color": "#FB8C00",
+                "weight": 4,
+                "dashArray": "8 6"
+            }
+        },
+        {
+            "id": "luminarias_1er",
+            "name": "1°er Proyecto Luminarias",
+            "file": "data/1°ER PROYECTO DE LUMINARIAS.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "categorizedIcon": {
+                "field": "Potencia",
+                "clusterColor": "#43A047",
+                "categories": {
+                    "120W": {
+                        "icon": "lightbulb",
+                        "markerColor": "#43A047"
+                    },
+                    "60W": {
+                        "icon": "lightbulb",
+                        "markerColor": "#7B1FA2"
+                    }
+                },
+                "default": {
+                    "icon": "lightbulb",
+                    "markerColor": "#607D8B"
+                }
+            }
+        },
+        {
+            "id": "luminarias_2do",
+            "name": "2°do proyecto luminarias",
+            "file": "data/2°DO PROYECTO DE LUMINARIAS.geojson",
+            "geometry": "point",
+            "visible": true,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "lightbulb",
+            "markerColor": "#FDD835"
+        },
+        {
+            "id": "baches",
+            "name": "Baches",
+            "file": "data/BACHES.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "road",
+            "markerColor": "#E53935"
+        },
+        {
+            "id": "centros",
+            "name": "Centros de Votación",
+            "file": "data/CENTROS DE VOTACION.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": false,
+            "searchable": true,
+            "popup": true,
+            "icon": "school",
+            "markerColor": "#3949AB"
+        },
+        {
+            "id": "planmol",
+            "name": "Plan MOL 2026",
+            "file": "data/PLAN MOL 2026.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "trowel-bricks",
+            "markerColor": "#A9A9A9"
+        },
+        {
+            "id": "colonias",
+            "name": "Colonias",
+            "file": "data/COLONIAS SAN MARCOS.geojson",
+            "geometry": "polygon",
+            "visible": false,
+            "searchable": true,
+            "popup": true,
+            "style": {
+                "color": "#8A2BE2",
+                "weight": 2,
+                "fillColor": "#A5D6A7",
+                "fillOpacity": 0.0
+            }
+        },
+        {
+            "id": "referentes_zonales",
+            "name": "Referentes Zonales",
+            "file": "data/REFERENTES ZONALES.geojson",
+            "geometry": "point",
+            "visible": true,
+            "searchable": true,
+            "popup": true,
+            "icon": "user",
+            "markerColor": "#00FFFF"
+        },
+        {
+            "id": "centros_escolares",
+            "name": "Centros Educativos",
+            "file": "data/CENTROS EDUCATIVOS.geojson",
+            "geometry": "point",
+            "visible": false,
+            "cluster": true,
+            "searchable": true,
+            "popup": true,
+            "categorizedIcon": {
+                "field": "sector",
+                "categories": {
+                    "PUBLICO": {
+                        "icon": "school",
+                        "markerColor": "#1565C0"
+                    },
+                    "PRIVADO": {
+                        "icon": "school",
+                        "markerColor": "#E91E63"
+                    }
+                },
+                "default": {
+                    "icon": "school",
+                    "markerColor": "#757575"
+                }
+            }
+        }
+    ]
+}

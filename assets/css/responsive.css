@@ -1,0 +1,547 @@
+/* ==========================================================
+   SIGT — SAN SALVADOR SUR
+   responsive.css  —  Móviles y tablets
+
+   Estrategia:
+     - Escritorio (>1024px): tres columnas (panel · mapa · gráficos).
+     - Tablet (768–1024px): panel más estrecho, gráficos ocultables.
+     - Móvil (<768px): el mapa ocupa la pantalla y los paneles se
+       deslizan por encima como cajones. La barra de pestañas pasa
+       a ser horizontal en la parte inferior, al alcance del pulgar.
+     - Objetivos táctiles de 44px mínimo en todos los controles.
+   ========================================================== */
+
+/* Cualquier regla de display propia anula el atributo [hidden] del
+   navegador. Sin esto, el visor oculto seguiría capturando los toques
+   por encima de la pantalla de acceso. */
+#appShell[hidden] {
+    display: none !important;
+}
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+
+@media (max-width: 1024px) {
+    #container {
+        grid-template-columns: 300px 1fr 0px;
+    }
+
+    #container.infopanel-collapsed {
+        grid-template-columns: 300px 1fr 0px;
+    }
+
+    #container.sidebar-collapsed {
+        grid-template-columns: 0px 1fr 0px;
+    }
+
+    /* El panel de gráficos se muestra solo cuando se pide */
+    #infoPanel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 320px;
+        z-index: 1010;
+        box-shadow: -6px 0 18px rgba(0, 0, 0, .18);
+        transform: translateX(100%);
+        transition: transform .3s ease;
+    }
+
+    #container:not(.infopanel-collapsed) #infoPanel {
+        transform: translateX(0);
+    }
+
+    .search-container {
+        width: 260px;
+    }
+
+    .sidebar-tabs {
+        width: 68px;
+        min-width: 68px;
+    }
+
+    .tab-btn {
+        height: 68px;
+    }
+}
+
+/* ==========================================================
+   MÓVIL
+   ========================================================== */
+
+@media (max-width: 768px) {
+
+    /* ---- Barra superior compacta ---- */
+    #topbar {
+        height: auto !important;
+        min-height: 56px;
+        flex-wrap: wrap;
+        padding: 8px 10px;
+        gap: 8px;
+    }
+
+    .logo img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .logo h2 {
+        font-size: 15px;
+    }
+
+    .logo span {
+        font-size: 10px;
+    }
+
+    /* La búsqueda pasa a una segunda fila completa */
+    .search-container {
+        order: 3;
+        width: 100% !important;
+        flex-basis: 100%;
+    }
+
+    .toolbar {
+        gap: 6px;
+        margin-left: auto;
+    }
+
+    /* En pantallas pequeñas sobran los botones de escritorio */
+    .toolbar button[title="Imprimir"],
+    .toolbar button[title="Pantalla completa"] {
+        display: none;
+    }
+
+    .admin-user-box {
+        gap: 6px;
+    }
+
+    #adminUserName {
+        display: none;      /* el rol y el botón de salir bastan */
+    }
+
+    /* ---- Estructura: el mapa manda ----
+       La barra de pestañas NO viaja dentro del cajón: se queda fija abajo,
+       siempre accesible. Si estuviera dentro del panel deslizante, al
+       cerrarlo desaparecería y no habría forma de cambiar de pestaña.
+
+       El alto se reparte con flexbox en lugar de restar píxeles fijos: la
+       barra superior crece al envolverse (logo + búsqueda + herramientas),
+       y con un cálculo fijo el panel acababa fuera de la pantalla. */
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100dvh;
+    }
+
+    #appShell {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
+    }
+
+    #topbar {
+        flex-shrink: 0;
+    }
+
+    #container {
+        display: block !important;
+        position: relative !important;
+        flex: 1;
+        min-height: 0;
+        height: auto !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #mapContainer {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: var(--barra-movil, 62px);
+        width: auto !important;
+        height: auto !important;
+    }
+
+    /* El sidebar pasa a ser una capa transparente que no bloquea el mapa;
+       solo sus hijos reciben toques.
+       Se incluye .collapsed en el selector porque la regla de escritorio
+       (#sidebar.collapsed{width:0}) tiene más especificidad y, si no, el
+       panel quedaba con ancho cero y las pestañas invisibles. */
+    #sidebar,
+    #sidebar.collapsed {
+        position: absolute;
+        inset: 0;
+        width: auto !important;
+        max-width: none;
+        background: transparent;
+        border: none;
+        pointer-events: none;
+        transform: none !important;
+        display: block;
+        overflow: visible;
+    }
+
+    /* Barra de pestañas fija al pie (zona del pulgar) */
+    .sidebar-tabs {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: var(--barra-movil, 62px);
+        min-height: var(--barra-movil, 62px);
+        width: auto;
+        min-width: 0;
+        flex-direction: row;
+        border-right: none;
+        border-top: 1px solid var(--border);
+        background: linear-gradient(0deg, #f8fafc 0%, #f1f5f9 100%);
+        pointer-events: auto;
+        z-index: 1300;
+    }
+
+    body.dark-theme .sidebar-tabs {
+        background: linear-gradient(0deg, #1e293b 0%, #0f172a 100%);
+    }
+
+    .tab-btn {
+        flex: 1;
+        width: auto;
+        height: 100%;
+        border-right: none;
+        border-top: 3px solid transparent;
+        position: relative;
+    }
+
+    .tab-btn.active {
+        border-right-color: transparent;
+        border-top-color: var(--primary);
+    }
+
+    body.dark-theme .tab-btn.active {
+        border-right-color: transparent;
+        border-top-color: #3b82f6;
+    }
+
+    /* El contenido de la pestaña es el cajón que se desliza */
+    .tab-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: var(--barra-movil, 62px);
+        max-width: 480px;
+        background: var(--panel);
+        border-right: 1px solid var(--border);
+        box-shadow: 6px 0 20px rgba(0, 0, 0, .25);
+        pointer-events: auto;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transform: translateX(0);
+        transition: transform .3s ease;
+        z-index: 1200;
+    }
+
+    #sidebar.collapsed .tab-content {
+        transform: translateX(-100%);
+    }
+
+    /* ---- Panel de gráficos ---- */
+    #infoPanel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: var(--barra-movil, 62px);
+        width: 100% !important;
+        max-width: 420px;
+        z-index: 1200;
+        box-shadow: -6px 0 20px rgba(0, 0, 0, .25);
+        transform: translateX(0);
+        transition: transform .3s ease;
+    }
+
+    #infoPanel.collapsed {
+        transform: translateX(100%) !important;
+        width: 100% !important;
+        max-width: 420px;
+    }
+
+    /* ---- Tiradores de los cajones ---- */
+    .panel-toggle-btn {
+        width: 30px;
+        height: 68px;
+        z-index: 1250;
+        top: 42%;
+    }
+
+    .panel-toggle-btn.left {
+        left: min(100%, 480px) !important;
+        transition: left .3s ease !important;
+    }
+
+    #container.sidebar-collapsed .panel-toggle-btn.left {
+        left: 0 !important;
+    }
+
+    .panel-toggle-btn.right {
+        right: min(100%, 420px) !important;
+        transition: right .3s ease !important;
+    }
+
+    #container.infopanel-collapsed .panel-toggle-btn.right {
+        right: 0 !important;
+    }
+
+    /* ---- Controles táctiles más grandes ---- */
+    .registry-input,
+    .registry-add-btn,
+    .registry-export-btn,
+    select.registry-input {
+        min-height: 44px;
+        font-size: 16px;   /* evita el zoom automático de iOS al enfocar */
+    }
+
+    .registry-item-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .layer-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .layer-checkbox {
+        width: 22px;
+        height: 22px;
+    }
+
+    /* ---- Formulario flotante a pantalla casi completa ---- */
+    .registry-modal,
+    .sigt-modal-wide {
+        max-width: 100% !important;
+        max-height: 92dvh;
+        border-radius: 14px 14px 0 0;
+    }
+
+    .registry-modal-overlay {
+        padding: 0;
+        align-items: flex-end;
+    }
+
+    .sigt-form-map {
+        height: 200px;
+        min-height: 200px;
+    }
+
+    .registry-modal-footer {
+        position: sticky;
+        bottom: 0;
+        background: var(--panel);
+    }
+
+    .registry-modal-footer .popup-btn {
+        flex: 1;
+        min-height: 46px;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    /* ---- Banner de captura sobre el mapa ---- */
+    .registry-capture-banner {
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        transform: none;
+        max-width: none;
+        border-radius: 12px;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+
+    .registry-capture-banner.active {
+        transform: none;
+    }
+
+    /* El pie cede su espacio a la barra de pestañas */
+    footer {
+        display: none;
+    }
+
+    /* ---- Acceso ---- */
+    .admin-login-card {
+        padding: 24px 20px;
+        border-radius: 14px;
+    }
+
+    .admin-login-header h1 {
+        font-size: 23px;
+    }
+}
+
+/* ==========================================================
+   MÓVILES PEQUEÑOS
+   ========================================================== */
+
+@media (max-width: 480px) {
+    .tab-btn span {
+        font-size: 9px;
+    }
+
+    .tab-btn i {
+        font-size: 17px;
+    }
+
+    .tab-content,
+    #infoPanel,
+    #infoPanel.collapsed {
+        max-width: 100%;
+    }
+
+    .panel-toggle-btn.left {
+        left: 100% !important;
+        margin-left: -30px;
+    }
+
+    #container.sidebar-collapsed .panel-toggle-btn.left {
+        left: 0 !important;
+        margin-left: 0;
+    }
+
+    .panel-toggle-btn.right {
+        right: 100% !important;
+        margin-right: -30px;
+    }
+
+    #container.infopanel-collapsed .panel-toggle-btn.right {
+        right: 0 !important;
+        margin-right: 0;
+    }
+
+    .sigt-metrics {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .sigt-metric h4 {
+        font-size: 17px;
+    }
+
+    .sigt-metric span {
+        font-size: 9px;
+    }
+
+    .sigt-coords {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar-section {
+        padding: 14px;
+    }
+}
+
+/* ==========================================================
+   MÓVIL EN HORIZONTAL (poca altura)
+   ========================================================== */
+
+@media (max-height: 500px) and (orientation: landscape) {
+    #topbar {
+        min-height: 48px;
+    }
+
+    .search-container {
+        display: none;      /* el mapa necesita el alto */
+    }
+
+    #container {
+        --barra-movil: 50px;
+        height: calc(100dvh - 48px) !important;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .sidebar-tabs {
+        height: 50px;
+        min-height: 50px;
+    }
+
+    .tab-btn span {
+        display: none;      /* solo iconos: no hay alto para el texto */
+    }
+
+    .sigt-form-map {
+        height: 140px;
+        min-height: 140px;
+    }
+
+    .registry-modal,
+    .sigt-modal-wide {
+        max-height: 96dvh;
+    }
+}
+
+/* ==========================================================
+   PANTALLAS TÁCTILES (sin puntero fino)
+   ========================================================== */
+
+@media (hover: none) and (pointer: coarse) {
+    /* Objetivos táctiles de 44px en cualquier pantalla táctil, incluidas
+       las tablets (que por ancho no entran en el bloque de móvil). */
+    .registry-input,
+    .registry-add-btn,
+    .registry-export-btn,
+    select.registry-input,
+    input.registry-input {
+        min-height: 44px;
+        font-size: 16px;   /* evita el zoom automático de iOS al enfocar */
+    }
+
+    .registry-textarea {
+        min-height: 88px;
+    }
+
+    .registry-item-btn,
+    .layer-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .layer-checkbox {
+        width: 22px;
+        height: 22px;
+    }
+
+    .popup-btn {
+        min-height: 44px;
+        padding: 10px 16px;
+    }
+
+    .registry-photo-thumb {
+        width: 84px;
+        height: 84px;
+    }
+
+    .registry-photo-remove {
+        width: 26px;
+        height: 26px;
+        font-size: 13px;
+    }
+
+    /* Los estados :hover no aplican en táctil: se refuerza el foco */
+    .registry-item-btn:active,
+    .layer-btn:active,
+    .tab-btn:active {
+        background: rgba(11, 94, 215, .12);
+    }
+
+    /* Los controles de Leaflet, más grandes para el dedo */
+    .leaflet-touch .leaflet-bar a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
