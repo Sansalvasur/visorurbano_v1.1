@@ -48,39 +48,52 @@
     <!-- ===================================================== -->
 
     <div id="loginScreen" class="admin-login-screen">
-        <form id="loginForm" class="admin-login-card" autocomplete="on">
-            <div class="admin-login-header">
-                <img src="/assets/images/logo.png" alt="Logo" class="admin-login-logo">
-                <h1>VGT</h1>
-                <p>Visor de Gestion Territorial<br><strong>Bienvenido</strong></p>
-            </div>
+        <div class="admin-login-overlay"></div>
 
-            <label class="registry-field-label" for="loginEmail">Correo</label>
-            <input type="email" id="loginEmail" class="registry-input"
-                   placeholder="Ingresa tu correo"
-                   autocomplete="username" required>
+        <div class="admin-login-wrap">
+            <form id="loginForm" class="admin-login-card" autocomplete="on">
+                <div class="admin-login-header">
+                    <div class="admin-login-badge">
+                        <img src="/assets/images/logo.png" alt="Logo" class="admin-login-logo">
+                    </div>
+                    <p class="admin-login-eyebrow">San Salvador Sur</p>
+                    <h1>VGT</h1>
+                    <p class="admin-login-subtitle">Visor de Gestión Territorial</p>
+                </div>
 
-            <label class="registry-field-label" for="loginPassword">Contraseña</label>
-            <div class="password-field">
-                <input type="password" id="loginPassword" class="registry-input"
-                       autocomplete="current-password" required minlength="8">
-                <button type="button" id="toggleLoginPassword" class="password-toggle-btn"
-                        aria-label="Mostrar contraseña" aria-pressed="false" tabindex="-1">
-                    <i class="fa-solid fa-eye"></i>
+                <label class="admin-login-label" for="loginEmail">Correo electrónico</label>
+                <div class="admin-login-field">
+                    <i class="fa-solid fa-envelope admin-login-field-icon"></i>
+                    <input type="email" id="loginEmail" class="admin-login-input"
+                           placeholder="usuario@sansalvadorsur.gob.sv"
+                           autocomplete="username" required>
+                </div>
+
+                <label class="admin-login-label" for="loginPassword">Contraseña</label>
+                <div class="admin-login-field password-field">
+                    <i class="fa-solid fa-lock admin-login-field-icon"></i>
+                    <input type="password" id="loginPassword" class="admin-login-input"
+                           placeholder="••••••••"
+                           autocomplete="current-password" required minlength="8">
+                    <button type="button" id="toggleLoginPassword" class="password-toggle-btn"
+                            aria-label="Mostrar contraseña" aria-pressed="false" tabindex="-1">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+
+                <div id="loginError" class="registry-auth-error" role="alert"></div>
+
+                <button type="submit" id="loginSubmit" class="admin-login-submit">
+                    <span>Iniciar sesión</span>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </button>
-            </div>
-
-            <div id="loginError" class="registry-auth-error" role="alert"></div>
-
-            <button type="submit" id="loginSubmit" class="registry-add-btn" style="margin-top:14px;">
-                <i class="fa-solid fa-right-to-bracket"></i> Ingresar
-            </button>
+            </form>
 
             <p class="admin-login-note">
-                Acceso exclusivo al personal autorizado. Las cuentas las crea
-                el administrador del sistema; no existe registro público.
+                Acceso exclusivo al personal autorizado.<br>
+                Las cuentas son creadas por el administrador del sistema.
             </p>
-        </form>
+        </div>
     </div>
 
     <!-- Todo el visor vive dentro de este contenedor, oculto hasta el login -->

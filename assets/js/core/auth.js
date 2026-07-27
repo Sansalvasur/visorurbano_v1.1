@@ -108,12 +108,12 @@ export class AuthGate {
         }
 
         btn.disabled = true;
-        btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Verificando…`;
+        btn.innerHTML = `<span>Verificando…</span><i class="fa-solid fa-spinner fa-spin"></i>`;
 
         const { data, error } = await this.supabase.auth.signInWithPassword({ email, password });
 
         btn.disabled = false;
-        btn.innerHTML = `<i class="fa-solid fa-right-to-bracket"></i> Ingresar`;
+        btn.innerHTML = `<span>Iniciar sesión</span><i class="fa-solid fa-arrow-right"></i>`;
         document.getElementById("loginPassword").value = "";
 
         if (error) {
